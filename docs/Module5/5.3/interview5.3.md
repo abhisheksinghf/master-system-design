@@ -7,7 +7,7 @@ sidebar_label: Interview Questions
 
 ---
 
-## 1️⃣ What are delivery semantics in messaging systems?
+## 1. What are delivery semantics in messaging systems?
 
 ### Expected Answer
 Delivery semantics define how many times a message will be delivered to a consumer in a distributed system.
@@ -17,7 +17,7 @@ Delivery semantics define how many times a message will be delivered to a consum
 
 ---
 
-## 2️⃣ What is At-Most-Once delivery?
+## 2. What is At-Most-Once delivery?
 
 ### Expected Answer
 A message is delivered zero or one time. If failure occurs, the message may be lost.
@@ -27,7 +27,7 @@ No duplicates, but possible data loss.
 
 ---
 
-## 3️⃣ What is At-Least-Once delivery?
+## 3. What is At-Least-Once delivery?
 
 ### Expected Answer
 A message is delivered one or more times. The system retries if processing fails.
@@ -40,7 +40,7 @@ No data loss, but duplicates are possible.
 
 ---
 
-## 4️⃣ What is Exactly-Once delivery?
+## 4. What is Exactly-Once delivery?
 
 ### Expected Answer
 A message is delivered exactly one time, with no duplicates and no loss.
@@ -50,7 +50,7 @@ Very complex and expensive in distributed systems.
 
 ---
 
-## 5️⃣ Why is Exactly-Once hard to achieve?
+## 5. Why is Exactly-Once hard to achieve?
 
 ### Expected Points
 - Requires coordination across systems
@@ -60,7 +60,7 @@ Very complex and expensive in distributed systems.
 
 ---
 
-## 6️⃣ What is idempotency?
+## 6. What is idempotency?
 
 ### Expected Answer
 An operation is idempotent if executing it multiple times produces the same result as executing it once.
@@ -70,49 +70,49 @@ Marking order status as “completed” safely multiple times.
 
 ---
 
-## 7️⃣ Why is idempotency important in At-Least-Once systems?
+## 7. Why is idempotency important in At-Least-Once systems?
 
 ### Expected Answer
 Because duplicate messages may be delivered, and the system must avoid duplicate side effects.
 
 ---
 
-## 8️⃣ Which delivery guarantee may cause data loss?
+## 8. Which delivery guarantee may cause data loss?
 
 ### Expected Answer
 At-Most-Once.
 
 ---
 
-## 9️⃣ Which delivery guarantee may cause duplicate processing?
+## 9. Which delivery guarantee may cause duplicate processing?
 
 ### Expected Answer
 At-Least-Once.
 
 ---
 
-## 🔟 Which delivery guarantee is most expensive?
+## 10. Which delivery guarantee is most expensive?
 
 ### Expected Answer
 Exactly-Once.
 
 ---
 
-## 1️⃣1️⃣ Can you achieve Exactly-Once purely through messaging?
+## 11. Can you achieve Exactly-Once purely through messaging?
 
 ### Expected Answer
 No. It often requires coordination with storage systems and idempotent processing logic.
 
 ---
 
-## 1️⃣2️⃣ Give a real-world example where At-Least-Once is acceptable.
+## 12. Give a real-world example where At-Least-Once is acceptable.
 
 ### Expected Answer
 Email notifications — sending twice is better than not sending at all.
 
 ---
 
-## 1️⃣3️⃣ Give a real-world example where duplicates are dangerous.
+## 13. Give a real-world example where duplicates are dangerous.
 
 ### Expected Answer
 Charging a customer twice in a payment system.
@@ -122,14 +122,14 @@ Use idempotency keys.
 
 ---
 
-## 1️⃣4️⃣ Does delivery guarantee imply ordering guarantee?
+## 14. Does delivery guarantee imply ordering guarantee?
 
 ### Expected Answer
 No. Delivery semantics and ordering guarantees are separate concerns.
 
 ---
 
-## 1️⃣5️⃣ How do systems typically prevent duplicate side effects?
+## 15. How do systems typically prevent duplicate side effects?
 
 ### Expected Answer
 By using idempotency keys, deduplication logic, or unique transaction identifiers.

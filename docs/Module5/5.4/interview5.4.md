@@ -7,7 +7,7 @@ sidebar_label: Interview Questions
 
 ---
 
-## 1️⃣ What is Event-Driven Architecture (EDA)?
+## 1. What is Event-Driven Architecture (EDA)?
 
 ### Expected Answer
 Event-Driven Architecture is a design pattern where services communicate by producing and consuming events instead of making direct synchronous calls.
@@ -17,7 +17,7 @@ Event-Driven Architecture is a design pattern where services communicate by prod
 
 ---
 
-## 2️⃣ What is an event?
+## 2. What is an event?
 
 ### Expected Answer
 An event is an immutable record of something that has already happened in the system.
@@ -29,14 +29,14 @@ Example:
 
 ---
 
-## 3️⃣ How is Pub-Sub related to Event-Driven Architecture?
+## 3. How is Pub-Sub related to Event-Driven Architecture?
 
 ### Expected Answer
 Pub-Sub is the messaging pattern used in EDA where publishers emit events and multiple subscribers react to them.
 
 ---
 
-## 4️⃣ What is the difference between an event and a command?
+## 4. What is the difference between an event and a command?
 
 ### Expected Answer
 
@@ -48,21 +48,21 @@ Pub-Sub is the messaging pattern used in EDA where publishers emit events and mu
 
 ---
 
-## 5️⃣ What is an event stream?
+## 5. What is an event stream?
 
 ### Expected Answer
 An append-only log of events that represents the history of system changes.
 
 ---
 
-## 6️⃣ What is event sourcing?
+## 6. What is event sourcing?
 
 ### Expected Answer
 A pattern where the system stores all events and rebuilds the current state by replaying them.
 
 ---
 
-## 7️⃣ What are the benefits of event-driven architecture?
+## 7. What are the benefits of event-driven architecture?
 
 ### Expected Points
 - Loose coupling
@@ -73,7 +73,7 @@ A pattern where the system stores all events and rebuilds the current state by r
 
 ---
 
-## 8️⃣ What are the challenges of event-driven systems?
+## 8. What are the challenges of event-driven systems?
 
 ### Expected Points
 - Debugging complexity
@@ -84,14 +84,14 @@ A pattern where the system stores all events and rebuilds the current state by r
 
 ---
 
-## 9️⃣ Why is idempotency critical in event-driven systems?
+## 9. Why is idempotency critical in event-driven systems?
 
 ### Expected Answer
 Because events may be delivered multiple times, and duplicate processing must not cause incorrect side effects.
 
 ---
 
-## 🔟 How do you prevent duplicate event processing?
+## 10. How do you prevent duplicate event processing?
 
 ### Expected Answer
 - Use unique event IDs
@@ -100,14 +100,14 @@ Because events may be delivered multiple times, and duplicate processing must no
 
 ---
 
-## 1️⃣1️⃣ Does event-driven architecture guarantee strong consistency?
+## 11. Does event-driven architecture guarantee strong consistency?
 
 ### Expected Answer
 No. EDA typically provides eventual consistency.
 
 ---
 
-## 1️⃣2️⃣ When should you use event-driven architecture?
+## 12. When should you use event-driven architecture?
 
 ### Expected Use Cases
 - Multiple systems react to same event
@@ -117,7 +117,7 @@ No. EDA typically provides eventual consistency.
 
 ---
 
-## 1️⃣3️⃣ When should you avoid event-driven architecture?
+## 13. When should you avoid event-driven architecture?
 
 ### Expected Answer
 - Simple CRUD applications
@@ -126,14 +126,14 @@ No. EDA typically provides eventual consistency.
 
 ---
 
-## 1️⃣4️⃣ How does EDA improve failure isolation?
+## 14. How does EDA improve failure isolation?
 
 ### Expected Answer
 If one consumer fails, other services can continue processing events independently.
 
 ---
 
-## 1️⃣5️⃣ Give a real-world example of EDA.
+## 15. Give a real-world example of EDA.
 
 ### Expected Answer
 In a payment system:

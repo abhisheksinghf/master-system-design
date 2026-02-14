@@ -7,7 +7,7 @@ sidebar_label: Interview Questions
 
 ---
 
-## 1️⃣ What is a load balancer?
+## 1. What is a load balancer?
 
 ### Expected Answer
 A load balancer distributes incoming client requests across multiple backend servers to improve scalability, availability, and fault tolerance.
@@ -17,7 +17,7 @@ A load balancer distributes incoming client requests across multiple backend ser
 
 ---
 
-## 2️⃣ Why do we need load balancers?
+## 2. Why do we need load balancers?
 
 ### Expected Points
 - Prevent server overload
@@ -27,14 +27,14 @@ A load balancer distributes incoming client requests across multiple backend ser
 
 ---
 
-## 3️⃣ Where is a load balancer placed in a system?
+## 3. Where is a load balancer placed in a system?
 
 ### Expected Answer
 Between clients and backend servers. Clients never directly communicate with backend instances.
 
 ---
 
-## 4️⃣ What problems occur if a system does not use a load balancer?
+## 4. What problems occur if a system does not use a load balancer?
 
 ### Expected Answer
 - Single Point of Failure
@@ -44,7 +44,7 @@ Between clients and backend servers. Clients never directly communicate with bac
 
 ---
 
-## 5️⃣ What is Layer 4 (L4) load balancing?
+## 5. What is Layer 4 (L4) load balancing?
 
 ### Expected Answer
 L4 load balancing operates at the transport layer (TCP/UDP) and routes traffic based on IP address and port.
@@ -54,7 +54,7 @@ L4 load balancing operates at the transport layer (TCP/UDP) and routes traffic b
 
 ---
 
-## 6️⃣ What is Layer 7 (L7) load balancing?
+## 6. What is Layer 7 (L7) load balancing?
 
 ### Expected Answer
 L7 load balancing operates at the application layer (HTTP/HTTPS) and routes requests based on URLs, headers, or cookies.
@@ -64,7 +64,7 @@ L7 load balancing operates at the application layer (HTTP/HTTPS) and routes requ
 
 ---
 
-## 7️⃣ Difference between L4 and L7 load balancers?
+## 7. Difference between L4 and L7 load balancers?
 
 ### Expected Comparison
 - L4 → Faster, protocol-agnostic
@@ -75,7 +75,7 @@ L7 load balancing operates at the application layer (HTTP/HTTPS) and routes requ
 
 ---
 
-## 8️⃣ What are common load balancing algorithms?
+## 8. What are common load balancing algorithms?
 
 ### Expected List
 - Round Robin
@@ -84,28 +84,28 @@ L7 load balancing operates at the application layer (HTTP/HTTPS) and routes requ
 
 ---
 
-## 9️⃣ When would you use Round Robin?
+## 9. When would you use Round Robin?
 
 ### Expected Answer
 When backend servers are identical and traffic is evenly distributed.
 
 ---
 
-## 🔟 What is Least Connections algorithm?
+## 10. What is Least Connections algorithm?
 
 ### Expected Answer
 Traffic is routed to the server with the fewest active connections to balance uneven load.
 
 ---
 
-## 1️⃣1️⃣ What is hash-based routing?
+## 11. What is hash-based routing?
 
 ### Expected Answer
 Requests are routed based on a hash of client IP or request key, often used for session affinity.
 
 ---
 
-## 1️⃣2️⃣ What are health checks and why are they important?
+## 12. What are health checks and why are they important?
 
 ### Expected Answer
 Health checks allow the load balancer to detect unhealthy servers and stop routing traffic to them.
@@ -115,7 +115,7 @@ Health checks allow the load balancer to detect unhealthy servers and stop routi
 
 ---
 
-## 1️⃣3️⃣ Can a load balancer be a single point of failure?
+## 13. Can a load balancer be a single point of failure?
 
 ### Correct Answer
 Yes, if only one load balancer exists.
@@ -125,14 +125,14 @@ Use multiple load balancers with DNS or failover mechanisms.
 
 ---
 
-## 1️⃣4️⃣ What are sticky sessions?
+## 14. What are sticky sessions?
 
 ### Expected Answer
 Sticky sessions ensure requests from a client are always routed to the same backend server.
 
 ---
 
-## 1️⃣5️⃣ Why are sticky sessions discouraged?
+## 15. Why are sticky sessions discouraged?
 
 ### Expected Points
 - Uneven load distribution
@@ -144,14 +144,14 @@ Sticky sessions ensure requests from a client are always routed to the same back
 
 ---
 
-## 1️⃣6️⃣ How do load balancers work with stateless services?
+## 16. How do load balancers work with stateless services?
 
 ### Expected Answer
 Any request can be routed to any instance since no client state is stored on the server.
 
 ---
 
-## 1️⃣7️⃣ What additional responsibilities can load balancers handle?
+## 17. What additional responsibilities can load balancers handle?
 
 ### Expected Examples
 - SSL termination
@@ -161,7 +161,7 @@ Any request can be routed to any instance since no client state is stored on the
 
 ---
 
-## 1️⃣8️⃣ Load balancer vs API Gateway?
+## 18. Load balancer vs API Gateway?
 
 ### Expected Answer
 - Load balancer → traffic distribution

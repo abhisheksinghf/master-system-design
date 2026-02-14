@@ -8,7 +8,7 @@ sidebar_label: Interview Questions
 
 ---
 
-## 1️⃣ What happens when you type a URL in the browser?
+## 1. What happens when you type a URL in the browser?
 
 ### Expected Answer (High Level)
 1. DNS resolution (domain → IP)
@@ -24,7 +24,7 @@ Don’t go too deep unless asked.
 
 ---
 
-## 2️⃣ Why does DNS matter in system design?
+## 2. Why does DNS matter in system design?
 
 ### Key Points
 - DNS adds latency
@@ -37,7 +37,7 @@ Don’t go too deep unless asked.
 
 ---
 
-## 3️⃣ Difference between HTTP and HTTPS?
+## 3. Difference between HTTP and HTTPS?
 
 | Aspect | HTTP | HTTPS |
 |----|----|----|
@@ -50,7 +50,7 @@ Don’t go too deep unless asked.
 
 ---
 
-## 4️⃣ Why is HTTPS mandatory for modern systems?
+## 4. Why is HTTPS mandatory for modern systems?
 
 ### Expected Points
 - Prevents man-in-the-middle attacks
@@ -62,7 +62,7 @@ Don’t go too deep unless asked.
 
 ---
 
-## 5️⃣ What is statelessness and why is it important?
+## 5. What is statelessness and why is it important?
 
 ### Stateless
 - Server stores no client state
@@ -78,7 +78,7 @@ Don’t go too deep unless asked.
 
 ---
 
-## 6️⃣ TCP vs UDP — when do you use which?
+## 6. TCP vs UDP — when do you use which?
 
 ### TCP
 - Reliable
@@ -96,7 +96,7 @@ Don’t go too deep unless asked.
 
 ---
 
-## 7️⃣ What is latency vs throughput?
+## 7. What is latency vs throughput?
 
 ### Latency
 - Time taken for a single request
@@ -110,7 +110,7 @@ Don’t go too deep unless asked.
 
 ---
 
-## 8️⃣ What is a port and why is it needed?
+## 8. What is a port and why is it needed?
 
 ### Expected Answer
 - Port identifies the application on a machine
@@ -126,7 +126,7 @@ Port = application
 
 ---
 
-## 9️⃣ What does REST mean in system design?
+## 9. What does REST mean in system design?
 
 ### Key Principles
 - Resource-based URLs
@@ -138,7 +138,7 @@ Port = application
 
 ---
 
-## 🔟 Common Traps Interviewers Set
+## 10. Common Traps Interviewers Set
 
 ❌ Saying HTTPS = encryption only  
 ✅ Mention authentication + integrity

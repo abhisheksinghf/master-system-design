@@ -7,7 +7,7 @@ sidebar_label: Interview Questions
 
 ---
 
-## 1️⃣ What is database sharding?
+## 1. What is database sharding?
 
 ### Expected Answer
 Database sharding is the process of splitting data across multiple database nodes, where each shard stores only a subset of the data.
@@ -17,7 +17,7 @@ Database sharding is the process of splitting data across multiple database node
 
 ---
 
-## 2️⃣ Why do we need sharding?
+## 2. Why do we need sharding?
 
 ### Expected Answer
 Sharding is needed to:
@@ -30,7 +30,7 @@ Sharding is needed to:
 
 ---
 
-## 3️⃣ What is the difference between sharding and replication?
+## 3. What is the difference between sharding and replication?
 
 ### Expected Answer
 
@@ -42,7 +42,7 @@ Sharding is needed to:
 
 ---
 
-## 4️⃣ What is a shard key?
+## 4. What is a shard key?
 
 ### Expected Answer
 A shard key is the attribute used to determine which shard a record is stored on.
@@ -56,7 +56,7 @@ A shard key is the attribute used to determine which shard a record is stored on
 
 ---
 
-## 5️⃣ What makes a good shard key?
+## 5. What makes a good shard key?
 
 ### Expected Points
 - High cardinality
@@ -66,7 +66,7 @@ A shard key is the attribute used to determine which shard a record is stored on
 
 ---
 
-## 6️⃣ What are common sharding strategies?
+## 6. What are common sharding strategies?
 
 ### Expected Answer
 - Range-based sharding
@@ -75,7 +75,7 @@ A shard key is the attribute used to determine which shard a record is stored on
 
 ---
 
-## 7️⃣ What is range-based sharding?
+## 7. What is range-based sharding?
 
 ### Expected Answer
 Data is partitioned based on ranges of the shard key (e.g., user_id 1–1000, 1001–2000).
@@ -86,7 +86,7 @@ Data is partitioned based on ranges of the shard key (e.g., user_id 1–1000, 10
 
 ---
 
-## 8️⃣ What is hash-based sharding?
+## 8. What is hash-based sharding?
 
 ### Expected Answer
 A hash function is applied to the shard key to determine the shard.
@@ -99,7 +99,7 @@ A hash function is applied to the shard key to determine the shard.
 
 ---
 
-## 9️⃣ What is consistent hashing and why is it used?
+## 9. What is consistent hashing and why is it used?
 
 ### Expected Answer
 Consistent hashing minimizes data movement when shards are added or removed by distributing keys on a hash ring.
@@ -109,7 +109,7 @@ Consistent hashing minimizes data movement when shards are added or removed by d
 
 ---
 
-## 🔟 What are hot shards?
+## 10. What are hot shards?
 
 ### Expected Answer
 Hot shards are shards that receive disproportionately high traffic due to poor shard key choice.
@@ -119,7 +119,7 @@ Hot shards are shards that receive disproportionately high traffic due to poor s
 
 ---
 
-## 1️⃣1️⃣ What are cross-shard queries?
+## 11. What are cross-shard queries?
 
 ### Expected Answer
 Queries that need data from multiple shards.
@@ -131,7 +131,7 @@ Queries that need data from multiple shards.
 
 ---
 
-## 1️⃣2️⃣ How do you handle joins in a sharded database?
+## 12. How do you handle joins in a sharded database?
 
 ### Expected Answer
 - Avoid cross-shard joins
@@ -140,7 +140,7 @@ Queries that need data from multiple shards.
 
 ---
 
-## 1️⃣3️⃣ What is resharding?
+## 13. What is resharding?
 
 ### Expected Answer
 Resharding is the process of redistributing data when the number of shards changes or shards become imbalanced.
@@ -152,7 +152,7 @@ Resharding is the process of redistributing data when the number of shards chang
 
 ---
 
-## 1️⃣4️⃣ Why is resharding difficult?
+## 14. Why is resharding difficult?
 
 ### Expected Points
 - Large data movement
@@ -164,7 +164,7 @@ Resharding is the process of redistributing data when the number of shards chang
 
 ---
 
-## 1️⃣5️⃣ Can you do transactions across shards?
+## 15. Can you do transactions across shards?
 
 ### Correct Answer
 Yes, but they are complex and expensive.
