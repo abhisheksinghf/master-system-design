@@ -7,7 +7,7 @@ sidebar_label: Interview Questions
 
 ---
 
-## 1️⃣ What is cache placement?
+## 1. What is cache placement?
 
 ### Expected Answer
 Cache placement refers to where caching is implemented in a system architecture, such as client-side, CDN, application-level, or database-level caching.
@@ -17,7 +17,7 @@ Cache placement refers to where caching is implemented in a system architecture,
 
 ---
 
-## 2️⃣ What are the different layers where caching can be placed?
+## 2. What are the different layers where caching can be placed?
 
 ### Expected Answer
 - Client-side cache
@@ -27,7 +27,7 @@ Cache placement refers to where caching is implemented in a system architecture,
 
 ---
 
-## 3️⃣ What is client-side caching?
+## 3. What is client-side caching?
 
 ### Expected Answer
 Caching data directly in the browser or mobile app to reduce repeated server calls.
@@ -40,14 +40,14 @@ Hard to invalidate and device-specific.
 
 ---
 
-## 4️⃣ What is a CDN and how is it related to caching?
+## 4. What is a CDN and how is it related to caching?
 
 ### Expected Answer
 A CDN caches static content at globally distributed edge servers to reduce latency and origin server load.
 
 ---
 
-## 5️⃣ What type of data should be cached at the CDN layer?
+## 5. What type of data should be cached at the CDN layer?
 
 ### Expected Answer
 - Static assets (images, CSS, JS)
@@ -56,7 +56,7 @@ A CDN caches static content at globally distributed edge servers to reduce laten
 
 ---
 
-## 6️⃣ What is application-level caching?
+## 6. What is application-level caching?
 
 ### Expected Answer
 A caching layer between the application and database, typically using systems like Redis or Memcached.
@@ -66,35 +66,35 @@ Reduce database load and improve response time.
 
 ---
 
-## 7️⃣ What is database caching?
+## 7. What is database caching?
 
 ### Expected Answer
 Databases internally cache frequently accessed data in memory (e.g., buffer pool) to reduce disk I/O.
 
 ---
 
-## 8️⃣ Why do modern systems use multi-level caching?
+## 8. Why do modern systems use multi-level caching?
 
 ### Expected Answer
 To reduce load progressively at each layer and optimize latency and scalability.
 
 ---
 
-## 9️⃣ Which cache layer provides the lowest latency?
+## 9. Which cache layer provides the lowest latency?
 
 ### Expected Answer
 Client-side cache (since no network request is required).
 
 ---
 
-## 🔟 Which cache layer is most important for backend scalability?
+## 10. Which cache layer is most important for backend scalability?
 
 ### Expected Answer
 Application-level cache.
 
 ---
 
-## 1️⃣1️⃣ Should you use CDN for personalized API responses?
+## 11. Should you use CDN for personalized API responses?
 
 ### Correct Answer
 No.
@@ -104,14 +104,14 @@ CDNs are best for static or public content, not highly personalized data.
 
 ---
 
-## 1️⃣2️⃣ How does cache placement affect consistency?
+## 12. How does cache placement affect consistency?
 
 ### Expected Answer
 The closer cache is to the user, the harder it becomes to maintain strong consistency.
 
 ---
 
-## 1️⃣3️⃣ How would you choose where to place a cache?
+## 13. How would you choose where to place a cache?
 
 ### Expected Points
 - Data volatility
@@ -121,7 +121,7 @@ The closer cache is to the user, the harder it becomes to maintain strong consis
 
 ---
 
-## 1️⃣4️⃣ Give an example of cache placement in an e-commerce system.
+## 14. Give an example of cache placement in an e-commerce system.
 
 ### Expected Answer
 - CDN → product images
@@ -130,7 +130,7 @@ The closer cache is to the user, the harder it becomes to maintain strong consis
 
 ---
 
-## 1️⃣5️⃣ What are common mistakes related to cache placement?
+## 15. What are common mistakes related to cache placement?
 
 ### Expected Points
 - Caching personalized data at CDN

@@ -7,7 +7,7 @@ sidebar_label: Interview Questions
 
 ---
 
-## 1️⃣ Why are failures inevitable in distributed systems?
+## 1. Why are failures inevitable in distributed systems?
 
 ### Expected Answer
 Because distributed systems involve multiple machines, networks, and components, any of which can fail due to hardware issues, network problems, software bugs, or human errors.
@@ -17,14 +17,14 @@ Because distributed systems involve multiple machines, networks, and components,
 
 ---
 
-## 2️⃣ What is a Single Point of Failure (SPOF)?
+## 2. What is a Single Point of Failure (SPOF)?
 
 ### Expected Answer
 A Single Point of Failure is a component whose failure causes the entire system to fail.
 
 ---
 
-## 3️⃣ Give an example of a SPOF.
+## 3. Give an example of a SPOF.
 
 ### Expected Answer
 - A single database instance without replication.
@@ -33,7 +33,7 @@ A Single Point of Failure is a component whose failure causes the entire system 
 
 ---
 
-## 4️⃣ How do you eliminate a Single Point of Failure?
+## 4. How do you eliminate a Single Point of Failure?
 
 ### Expected Answer
 By adding redundancy, such as:
@@ -43,14 +43,14 @@ By adding redundancy, such as:
 
 ---
 
-## 5️⃣ What is redundancy?
+## 5. What is redundancy?
 
 ### Expected Answer
 Redundancy means having multiple instances of a component so that if one fails, others continue operating.
 
 ---
 
-## 6️⃣ What is the difference between Active-Active and Active-Passive setups?
+## 6. What is the difference between Active-Active and Active-Passive setups?
 
 ### Active-Active
 All nodes handle traffic simultaneously.
@@ -60,21 +60,21 @@ One node handles traffic; backup takes over if primary fails.
 
 ---
 
-## 7️⃣ What is a failure domain?
+## 7. What is a failure domain?
 
 ### Expected Answer
 A failure domain is a boundary within which failures are correlated, such as a single server rack or availability zone.
 
 ---
 
-## 8️⃣ Why is it important to distribute systems across failure domains?
+## 8. Why is it important to distribute systems across failure domains?
 
 ### Expected Answer
 To prevent correlated failures from bringing down all replicas simultaneously.
 
 ---
 
-## 9️⃣ What is graceful degradation?
+## 9. What is graceful degradation?
 
 ### Expected Answer
 Graceful degradation means the system continues functioning with reduced features when some components fail.
@@ -84,42 +84,42 @@ Checkout works even if recommendation system is down.
 
 ---
 
-## 🔟 What is the fail-fast principle?
+## 10. What is the fail-fast principle?
 
 ### Expected Answer
 A system should quickly detect and stop using unhealthy components to prevent cascading failures.
 
 ---
 
-## 1️⃣1️⃣ Why should you design for the worst-case scenario?
+## 11. Why should you design for the worst-case scenario?
 
 ### Expected Answer
 Because distributed systems will eventually encounter failures, and planning only for the happy path leads to outages.
 
 ---
 
-## 1️⃣2️⃣ What happens if you ignore SPOFs in system design?
+## 12. What happens if you ignore SPOFs in system design?
 
 ### Expected Answer
 The system becomes fragile and can experience full outages from a single failure.
 
 ---
 
-## 1️⃣3️⃣ How does redundancy improve availability?
+## 13. How does redundancy improve availability?
 
 ### Expected Answer
 If one instance fails, other instances continue serving requests.
 
 ---
 
-## 1️⃣4️⃣ In a payment system, which components must never fail?
+## 14. In a payment system, which components must never fail?
 
 ### Expected Answer
 Critical path components such as payment authorization and balance updates must be highly available.
 
 ---
 
-## 1️⃣5️⃣ Which components can degrade gracefully in a payment system?
+## 15. Which components can degrade gracefully in a payment system?
 
 ### Expected Answer
 Non-critical services like email notifications, analytics, or logging.

@@ -7,7 +7,7 @@ sidebar_label: Interview Questions
 
 ---
 
-## 1️⃣ What is the difference between SQL and NoSQL databases?
+## 1. What is the difference between SQL and NoSQL databases?
 
 ### Expected Answer
 - **SQL** databases use a fixed schema, support ACID transactions, and are strong in data consistency.
@@ -18,7 +18,7 @@ sidebar_label: Interview Questions
 
 ---
 
-## 2️⃣ When would you choose an SQL database?
+## 2. When would you choose an SQL database?
 
 ### Expected Use Cases
 - Banking systems
@@ -31,7 +31,7 @@ Strong consistency and transactional guarantees are required.
 
 ---
 
-## 3️⃣ When would you choose a NoSQL database?
+## 3. When would you choose a NoSQL database?
 
 ### Expected Use Cases
 - Social media feeds
@@ -44,7 +44,7 @@ High throughput and flexible schema are more important than strict consistency.
 
 ---
 
-## 4️⃣ What does ACID stand for?
+## 4. What does ACID stand for?
 
 ### Expected Answer
 - **Atomicity** – All or nothing
@@ -54,7 +54,7 @@ High throughput and flexible schema are more important than strict consistency.
 
 ---
 
-## 5️⃣ What does BASE stand for?
+## 5. What does BASE stand for?
 
 ### Expected Answer
 - **Basically Available**
@@ -66,14 +66,14 @@ High throughput and flexible schema are more important than strict consistency.
 
 ---
 
-## 6️⃣ Can NoSQL databases support transactions?
+## 6. Can NoSQL databases support transactions?
 
 ### Correct Answer
 Yes, but usually in a limited or scoped manner (e.g., single-document or partition-level transactions).
 
 ---
 
-## 7️⃣ Is NoSQL always faster than SQL?
+## 7. Is NoSQL always faster than SQL?
 
 ### Correct Answer
 No.
@@ -86,7 +86,7 @@ Performance depends on access patterns, indexing, schema design, and workload ty
 
 ---
 
-## 8️⃣ Can SQL databases scale horizontally?
+## 8. Can SQL databases scale horizontally?
 
 ### Correct Answer
 Yes, but it is harder and more complex than scaling NoSQL databases.
@@ -97,7 +97,7 @@ Yes, but it is harder and more complex than scaling NoSQL databases.
 
 ---
 
-## 9️⃣ What is polyglot persistence?
+## 9. What is polyglot persistence?
 
 ### Expected Answer
 Using multiple database technologies in the same system, each optimized for different use cases.
@@ -107,7 +107,7 @@ Using multiple database technologies in the same system, each optimized for diff
 
 ---
 
-## 🔟 Why are databases often the first bottleneck?
+## 10. Why are databases often the first bottleneck?
 
 ### Expected Points
 - Centralized state
@@ -117,28 +117,28 @@ Using multiple database technologies in the same system, each optimized for diff
 
 ---
 
-## 1️⃣1️⃣ What type of NoSQL database would you use for caching?
+## 11. What type of NoSQL database would you use for caching?
 
 ### Correct Answer
 Key-value store (e.g., Redis).
 
 ---
 
-## 1️⃣2️⃣ Which database is better for complex joins?
+## 12. Which database is better for complex joins?
 
 ### Correct Answer
 SQL databases.
 
 ---
 
-## 1️⃣3️⃣ Which database is better for schema flexibility?
+## 13. Which database is better for schema flexibility?
 
 ### Correct Answer
 NoSQL databases.
 
 ---
 
-## 1️⃣4️⃣ What are common misconceptions about SQL vs NoSQL?
+## 14. What are common misconceptions about SQL vs NoSQL?
 
 ### Expected Clarifications
 - SQL cannot scale ❌
@@ -147,7 +147,7 @@ NoSQL databases.
 
 ---
 
-## 1️⃣5️⃣ Give an example of using SQL and NoSQL together.
+## 15. Give an example of using SQL and NoSQL together.
 
 ### Expected Answer
 - SQL for transactions and core data

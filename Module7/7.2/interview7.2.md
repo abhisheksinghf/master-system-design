@@ -7,7 +7,7 @@ sidebar_label: Interview Questions
 
 ---
 
-## 1️⃣ Why can’t we use a local mutex in distributed systems?
+## 1. Why can’t we use a local mutex in distributed systems?
 
 ### Expected Answer
 Because local mutexes only work within a single process or machine. In distributed systems, multiple machines do not share memory.
@@ -17,14 +17,14 @@ Because local mutexes only work within a single process or machine. In distribut
 
 ---
 
-## 2️⃣ What is a distributed lock?
+## 2. What is a distributed lock?
 
 ### Expected Answer
 A distributed lock ensures that only one node in a distributed system can access a shared resource at a time.
 
 ---
 
-## 3️⃣ What properties should a distributed lock provide?
+## 3. What properties should a distributed lock provide?
 
 ### Expected Points
 - Mutual exclusion
@@ -34,28 +34,28 @@ A distributed lock ensures that only one node in a distributed system can access
 
 ---
 
-## 4️⃣ Why is lock expiration important?
+## 4. Why is lock expiration important?
 
 ### Expected Answer
 If a process crashes after acquiring a lock, the lock must eventually expire to prevent permanent deadlock.
 
 ---
 
-## 5️⃣ What problem occurs if lock TTL expires too early?
+## 5. What problem occurs if lock TTL expires too early?
 
 ### Expected Answer
 Another process may acquire the lock while the first process is still working, leading to race conditions.
 
 ---
 
-## 6️⃣ What is the risk of using a database row as a lock?
+## 6. What is the risk of using a database row as a lock?
 
 ### Expected Answer
 If a server crashes after acquiring the lock, the lock may remain forever unless properly handled.
 
 ---
 
-## 7️⃣ What challenges arise in distributed locking?
+## 7. What challenges arise in distributed locking?
 
 ### Expected Points
 - Network partitions
@@ -66,35 +66,35 @@ If a server crashes after acquiring the lock, the lock may remain forever unless
 
 ---
 
-## 8️⃣ What is Redlock (conceptually)?
+## 8. What is Redlock (conceptually)?
 
 ### Expected Answer
 A distributed locking algorithm using multiple Redis instances where a lock is considered valid only if acquired in the majority of nodes.
 
 ---
 
-## 9️⃣ Why are consensus systems like Zookeeper or etcd better for locking?
+## 9. Why are consensus systems like Zookeeper or etcd better for locking?
 
 ### Expected Answer
 They provide strong consistency and reliable coordination using consensus algorithms.
 
 ---
 
-## 🔟 When should you avoid distributed locks?
+## 10. When should you avoid distributed locks?
 
 ### Expected Answer
 When idempotency or unique constraints can solve the problem more safely and scalably.
 
 ---
 
-## 1️⃣1️⃣ Why do distributed locks reduce scalability?
+## 11. Why do distributed locks reduce scalability?
 
 ### Expected Answer
 Because they serialize access to resources, limiting parallelism.
 
 ---
 
-## 1️⃣2️⃣ Give a real-world example where distributed locks are used.
+## 12. Give a real-world example where distributed locks are used.
 
 ### Expected Answer
 - Preventing double payment processing
@@ -103,21 +103,21 @@ Because they serialize access to resources, limiting parallelism.
 
 ---
 
-## 1️⃣3️⃣ What is a split-brain problem?
+## 13. What is a split-brain problem?
 
 ### Expected Answer
 A scenario where multiple nodes believe they hold the lock due to network partition or coordination failure.
 
 ---
 
-## 1️⃣4️⃣ Why is idempotency often preferred over locking?
+## 14. Why is idempotency often preferred over locking?
 
 ### Expected Answer
 Because idempotent operations allow safe retries without strict coordination, improving scalability and reliability.
 
 ---
 
-## 1️⃣5️⃣ What happens if network partition occurs during lock acquisition?
+## 15. What happens if network partition occurs during lock acquisition?
 
 ### Expected Answer
 Multiple nodes may believe they acquired the lock, leading to inconsistency.

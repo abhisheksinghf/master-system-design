@@ -7,7 +7,7 @@ sidebar_label: Interview Questions
 
 ---
 
-## 1️⃣ What is caching?
+## 1. What is caching?
 
 ### Expected Answer
 Caching is the process of storing frequently accessed data in a fast storage layer (usually memory) to reduce latency and backend load.
@@ -17,7 +17,7 @@ Caching is the process of storing frequently accessed data in a fast storage lay
 
 ---
 
-## 2️⃣ Why is caching needed in scalable systems?
+## 2. Why is caching needed in scalable systems?
 
 ### Expected Points
 - Reduces database load
@@ -28,7 +28,7 @@ Caching is the process of storing frequently accessed data in a fast storage lay
 
 ---
 
-## 3️⃣ What is a cache hit and cache miss?
+## 3. What is a cache hit and cache miss?
 
 ### Cache Hit
 Data is found in cache → fast response.
@@ -38,7 +38,7 @@ Data not in cache → fetch from DB → store in cache.
 
 ---
 
-## 4️⃣ What is cache hit ratio?
+## 4. What is cache hit ratio?
 
 ### Expected Answer
 Cache hit ratio = (cache hits / total requests)
@@ -47,7 +47,7 @@ Higher hit ratio → better performance.
 
 ---
 
-## 5️⃣ What kind of data should be cached?
+## 5. What kind of data should be cached?
 
 ### Expected Answer
 - Frequently read
@@ -60,7 +60,7 @@ Example:
 
 ---
 
-## 6️⃣ What kind of data should NOT be cached?
+## 6. What kind of data should NOT be cached?
 
 ### Expected Answer
 - Highly volatile data
@@ -69,7 +69,7 @@ Example:
 
 ---
 
-## 7️⃣ What are common cache eviction strategies?
+## 7. What are common cache eviction strategies?
 
 ### Expected Answer
 - LRU (Least Recently Used)
@@ -78,21 +78,21 @@ Example:
 
 ---
 
-## 8️⃣ Why is LRU commonly used?
+## 8. Why is LRU commonly used?
 
 ### Expected Answer
 Because it balances simplicity and effectiveness by removing the least recently accessed items.
 
 ---
 
-## 9️⃣ What is TTL in caching?
+## 9. What is TTL in caching?
 
 ### Expected Answer
 TTL (Time To Live) defines how long a cache entry remains valid before expiring automatically.
 
 ---
 
-## 🔟 What are the trade-offs of caching?
+## 10. What are the trade-offs of caching?
 
 ### Expected Points
 - Stale data risk
@@ -101,35 +101,35 @@ TTL (Time To Live) defines how long a cache entry remains valid before expiring 
 
 ---
 
-## 1️⃣1️⃣ Why is cache not considered a source of truth?
+## 11. Why is cache not considered a source of truth?
 
 ### Expected Answer
 Because cache data can expire, be evicted, or become stale. The database remains the authoritative source.
 
 ---
 
-## 1️⃣2️⃣ What happens if cache crashes?
+## 12. What happens if cache crashes?
 
 ### Expected Answer
 Data is lost from cache, but system falls back to the database.
 
 ---
 
-## 1️⃣3️⃣ Does caching improve write performance?
+## 13. Does caching improve write performance?
 
 ### Expected Answer
 Not directly. Caching primarily improves read performance.
 
 ---
 
-## 1️⃣4️⃣ How does caching improve scalability?
+## 14. How does caching improve scalability?
 
 ### Expected Answer
 By reducing database load and allowing the system to handle more concurrent users.
 
 ---
 
-## 1️⃣5️⃣ Give a real-world example where caching is critical.
+## 15. Give a real-world example where caching is critical.
 
 ### Expected Answer
 In an e-commerce system:

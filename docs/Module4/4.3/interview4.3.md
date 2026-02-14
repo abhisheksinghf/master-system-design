@@ -7,7 +7,7 @@ sidebar_label: Interview Questions
 
 ---
 
-## 1️⃣ What is a caching pattern?
+## 1. What is a caching pattern?
 
 ### Expected Answer
 A caching pattern defines how the cache interacts with the database during read and write operations.
@@ -17,7 +17,7 @@ A caching pattern defines how the cache interacts with the database during read 
 
 ---
 
-## 2️⃣ What is Cache-Aside (Lazy Loading)?
+## 2. What is Cache-Aside (Lazy Loading)?
 
 ### Expected Answer
 In cache-aside:
@@ -27,14 +27,14 @@ In cache-aside:
 
 ---
 
-## 3️⃣ Why is Cache-Aside the most commonly used pattern?
+## 3. Why is Cache-Aside the most commonly used pattern?
 
 ### Expected Answer
 Because it is simple, flexible, and works well for read-heavy workloads.
 
 ---
 
-## 4️⃣ What is Write-Through caching?
+## 4. What is Write-Through caching?
 
 ### Expected Answer
 In write-through:
@@ -43,7 +43,7 @@ In write-through:
 
 ---
 
-## 5️⃣ What are the advantages of Write-Through?
+## 5. What are the advantages of Write-Through?
 
 ### Expected Points
 - Cache stays consistent with DB
@@ -51,7 +51,7 @@ In write-through:
 
 ---
 
-## 6️⃣ What is Write-Back (Write-Behind) caching?
+## 6. What is Write-Back (Write-Behind) caching?
 
 ### Expected Answer
 In write-back:
@@ -60,7 +60,7 @@ In write-back:
 
 ---
 
-## 7️⃣ What are the risks of Write-Back?
+## 7. What are the risks of Write-Back?
 
 ### Expected Points
 - Risk of data loss if cache crashes
@@ -72,21 +72,21 @@ In write-back:
 
 ---
 
-## 8️⃣ What is Write-Around caching?
+## 8. What is Write-Around caching?
 
 ### Expected Answer
 Writes go directly to DB. Cache is updated only when data is read.
 
 ---
 
-## 9️⃣ When is Write-Around useful?
+## 9. When is Write-Around useful?
 
 ### Expected Answer
 In write-heavy systems where many writes are rarely read again.
 
 ---
 
-## 🔟 Compare caching patterns briefly.
+## 10. Compare caching patterns briefly.
 
 ### Expected Answer
 
@@ -99,7 +99,7 @@ In write-heavy systems where many writes are rarely read again.
 
 ---
 
-## 1️⃣1️⃣ Which pattern is safest for financial systems?
+## 11. Which pattern is safest for financial systems?
 
 ### Expected Answer
 Cache-Aside or Write-Through.
@@ -108,28 +108,28 @@ Never Write-Back for critical financial data.
 
 ---
 
-## 1️⃣2️⃣ What happens if cache is not invalidated properly?
+## 12. What happens if cache is not invalidated properly?
 
 ### Expected Answer
 Stale data may be served, causing inconsistencies.
 
 ---
 
-## 1️⃣3️⃣ Which pattern has the fastest writes?
+## 13. Which pattern has the fastest writes?
 
 ### Expected Answer
 Write-Back.
 
 ---
 
-## 1️⃣4️⃣ Which pattern causes cache miss on first read?
+## 14. Which pattern causes cache miss on first read?
 
 ### Expected Answer
 Cache-Aside and Write-Around.
 
 ---
 
-## 1️⃣5️⃣ Why is DB considered the source of truth in all patterns?
+## 15. Why is DB considered the source of truth in all patterns?
 
 ### Expected Answer
 Because cache may lose data, expire entries, or become inconsistent.

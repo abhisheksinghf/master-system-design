@@ -3,7 +3,7 @@
 
 ---
 
-## 1️⃣ What is a backend service?
+## 1. What is a backend service?
 
 ### Expected Answer
 A backend service exposes APIs, handles business logic, interacts with databases and other services, and runs continuously on a server.
@@ -13,7 +13,7 @@ A backend service exposes APIs, handles business logic, interacts with databases
 
 ---
 
-## 2️⃣ Monolith vs Microservices – which is better?
+## 2. Monolith vs Microservices – which is better?
 
 ### Expected Answer
 Neither is universally better.
@@ -26,7 +26,7 @@ Neither is universally better.
 
 ---
 
-## 3️⃣ What is statelessness and why is it important?
+## 3. What is statelessness and why is it important?
 
 ### Expected Answer
 Stateless services do not store client-specific data between requests.
@@ -41,7 +41,7 @@ Stateless services do not store client-specific data between requests.
 
 ---
 
-## 4️⃣ What problems do stateful services cause?
+## 4. What problems do stateful services cause?
 
 ### Expected Points
 - Session affinity required
@@ -53,7 +53,7 @@ Stateless services do not store client-specific data between requests.
 
 ---
 
-## 5️⃣ What is REST and why is it popular?
+## 5. What is REST and why is it popular?
 
 ### Expected Answer
 REST is an architectural style using stateless, resource-based APIs over HTTP.
@@ -65,7 +65,7 @@ REST is an architectural style using stateless, resource-based APIs over HTTP.
 
 ---
 
-## 6️⃣ What is a good REST API design?
+## 6. What is a good REST API design?
 
 ### Expected Points
 - Nouns, not verbs
@@ -83,7 +83,7 @@ POST /payments
 
 ---
 
-## 7️⃣ What is API versioning and why is it needed?
+## 7. What is API versioning and why is it needed?
 
 ### Expected Answer
 API versioning allows evolving APIs without breaking existing clients.
@@ -98,7 +98,7 @@ API versioning allows evolving APIs without breaking existing clients.
 
 ---
 
-## 8️⃣ Authentication vs Authorization?
+## 8. Authentication vs Authorization?
 
 ### Authentication
 > Who are you?
@@ -111,7 +111,7 @@ Always explain both — never just one.
 
 ---
 
-## 9️⃣ What is JWT and why is it used?
+## 9. What is JWT and why is it used?
 
 ### Expected Answer
 JWT is a self-contained token used for stateless authentication.
@@ -126,7 +126,7 @@ JWT is a self-contained token used for stateless authentication.
 
 ---
 
-## 🔟 JWT vs Session-based authentication?
+## 10. JWT vs Session-based authentication?
 
 | Aspect | JWT | Session |
 |----|----|----|
@@ -139,7 +139,7 @@ JWT is a self-contained token used for stateless authentication.
 
 ---
 
-## 1️⃣1️⃣ What is OAuth?
+## 11. What is OAuth?
 
 ### Expected Answer
 OAuth is an authorization framework that allows third-party access without sharing passwords.
@@ -149,7 +149,7 @@ OAuth is an authorization framework that allows third-party access without shari
 
 ---
 
-## 1️⃣2️⃣ Sync vs Async APIs – when to use which?
+## 12. Sync vs Async APIs – when to use which?
 
 ### Synchronous
 - Immediate response needed
@@ -164,7 +164,7 @@ OAuth is an authorization framework that allows third-party access without shari
 
 ---
 
-## 1️⃣3️⃣ How do services communicate with each other?
+## 13. How do services communicate with each other?
 
 ### Common Methods
 - REST
@@ -176,14 +176,14 @@ OAuth is an authorization framework that allows third-party access without shari
 
 ---
 
-## 1️⃣4️⃣ Why should backend services be stateless in distributed systems?
+## 14. Why should backend services be stateless in distributed systems?
 
 ### Expected Answer
 Stateless services simplify load balancing, scaling, and failure recovery.
 
 ---
 
-## 1️⃣5️⃣ How do you manage configuration and secrets?
+## 15. How do you manage configuration and secrets?
 
 ### Expected Answer
 - Config via environment variables or config servers
