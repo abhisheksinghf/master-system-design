@@ -116,6 +116,13 @@
 - Distributed transactions
 - Two-Phase Commit (2PC)
 
+### 3.7 Database Internals (Advanced)
+- Storage engines (B-Tree vs LSM)
+- WAL
+- MVCC
+- Compaction
+- Amplification problems
+
 ---
 
 ## MODULE 4: CACHING & PERFORMANCE OPTIMIZATION ⭐⭐⭐⭐⭐
@@ -170,6 +177,12 @@
 - Event sourcing (intro)
 - Idempotency
 
+### 5.5 Stream Processing & Data Pipelines
+- Batch vs stream
+- Event streaming platforms
+- Windowing
+- Data warehousing basics
+
 ---
 
 ## MODULE 6: RELIABILITY & FAULT TOLERANCE ⭐⭐⭐⭐⭐
@@ -208,6 +221,14 @@
 - Leader election basics
 - Raft and Paxos (high level only)
 
+### 7.4 Advanced Distributed Concepts
+- Quorum systems
+- Gossip protocols
+- CRDTs
+- Vector clocks
+- Split brain problem
+- Backpressure handling
+
 ---
 
 ## MODULE 8: SECURITY IN SYSTEM DESIGN
@@ -224,6 +245,13 @@
 ### 8.3 Authentication & Authorization
 - OAuth flow (high level)
 - API security best practices
+
+### 8.4 Advanced Security Architecture
+- Zero trust model
+- mTLS
+- WAF & DDoS protection
+- Key rotation
+- Secrets management deep dive
 
 ---
 
@@ -274,3 +302,72 @@ Each case study will cover:
 
 ### 11.3 Mock Interviews
 - End-to-end system design walkthroughs
+
+---
+
+## MODULE 12: GLOBAL & GEO-DISTRIBUTED SYSTEMS ⭐⭐⭐⭐
+
+### 12.1 Multi-Region Deployment
+### 12.2 Global Load Balancing
+### 12.3 Cross-Region Replication
+### 12.4 Data Sovereignty
+### 12.5 Consistency Trade-offs Across Regions
+
+---
+
+## MODULE 13: CLOUD-NATIVE ARCHITECTURE ⭐⭐⭐⭐
+
+### 13.1 Containers & Docker Basics
+### 13.2 Kubernetes Fundamentals
+### 13.3 Deployment Strategies
+### 13.4 Service Mesh Concepts
+### 13.5 Infrastructure as Code
+### 13.6 Autoscaling Strategies
+
+---
+
+## MODULE 14: CAPACITY PLANNING & COST ENGINEERING ⭐⭐⭐⭐⭐
+
+### 14.1 Estimating Traffic & Storage
+### 14.2 Capacity Planning
+### 14.3 Cost Modeling
+### 14.4 Cloud Cost Trade-offs
+### 14.5 Storage Tiering
+
+---
+
+## MODULE 15: SITE RELIABILITY ENGINEERING (SRE) ⭐⭐⭐⭐
+
+### 15.1 SLI, SLO, SLA
+### 15.2 Error Budgets
+### 15.3 Disaster Recovery
+### 15.4 RTO & RPO
+### 15.5 Chaos Engineering
+### 15.6 Incident Management
+
+---
+
+## MODULE 16: EDGE & CLIENT-SIDE ARCHITECTURE ⭐⭐⭐
+
+### 16.1 Offline-First Design
+### 16.2 Conflict Resolution
+### 16.3 CDN Internals
+### 16.4 Edge Computing Basics
+
+---
+
+## MODULE 17: ARCHITECTURAL PATTERNS ⭐⭐⭐⭐⭐
+
+### 17.1 Monolith vs Microservices
+### 17.2 Modular Monolith
+### 17.3 CQRS
+### 17.4 Saga Pattern
+### 17.5 Event Sourcing (Deep Dive)
+
+---
+
+## Final Clean Structure
+
+- Modules 0–11 → Strong Interview Level
+- Modules 12–17 → Staff / Principal / Production Mastery
+
