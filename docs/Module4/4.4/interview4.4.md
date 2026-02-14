@@ -7,7 +7,7 @@ sidebar_label: Interview Questions
 
 ---
 
-## 1️⃣ What is cache invalidation?
+## 1. What is cache invalidation?
 
 ### Expected Answer
 Cache invalidation is the process of removing or updating stale data in cache when the underlying data in the database changes.
@@ -17,7 +17,7 @@ Cache invalidation is the process of removing or updating stale data in cache wh
 
 ---
 
-## 2️⃣ Why is cache invalidation considered hard?
+## 2. Why is cache invalidation considered hard?
 
 ### Expected Answer
 Because caches are distributed, updates may happen concurrently, race conditions can occur, and ensuring consistency across multiple cache nodes is complex.
@@ -27,7 +27,7 @@ Because caches are distributed, updates may happen concurrently, race conditions
 
 ---
 
-## 3️⃣ What is TTL-based invalidation?
+## 3. What is TTL-based invalidation?
 
 ### Expected Answer
 Each cache entry has a Time To Live. After TTL expires, the entry is automatically removed.
@@ -37,14 +37,14 @@ Data may remain stale until TTL expires.
 
 ---
 
-## 4️⃣ Why is TTL alone not sufficient?
+## 4. Why is TTL alone not sufficient?
 
 ### Expected Answer
 Because updates may require immediate consistency, and TTL does not guarantee freshness before expiration.
 
 ---
 
-## 5️⃣ What is write-invalidate strategy?
+## 5. What is write-invalidate strategy?
 
 ### Expected Answer
 After updating the database, the corresponding cache entry is deleted.
@@ -53,14 +53,14 @@ This forces the next read to fetch fresh data from the DB.
 
 ---
 
-## 6️⃣ What is write-update strategy?
+## 6. What is write-update strategy?
 
 ### Expected Answer
 After updating the database, the cache is updated with the new value instead of being deleted.
 
 ---
 
-## 7️⃣ What are the trade-offs between write-invalidate and write-update?
+## 7. What are the trade-offs between write-invalidate and write-update?
 
 ### Expected Answer
 - Write-invalidate → simpler but causes cache miss on next read.
@@ -68,14 +68,14 @@ After updating the database, the cache is updated with the new value instead of 
 
 ---
 
-## 8️⃣ What is a race condition in cache invalidation?
+## 8. What is a race condition in cache invalidation?
 
 ### Expected Answer
 A situation where concurrent reads and writes result in stale data being written back to cache due to timing issues.
 
 ---
 
-## 9️⃣ What is versioned cache key strategy?
+## 9. What is versioned cache key strategy?
 
 ### Expected Answer
 Including a version number in the cache key so that updated data uses a new key, preventing stale overwrites.
@@ -89,21 +89,21 @@ user:123:v2
 
 ---
 
-## 🔟 What is event-driven cache invalidation?
+## 10. What is event-driven cache invalidation?
 
 ### Expected Answer
 When database updates trigger events that notify all cache nodes to invalidate or update specific keys.
 
 ---
 
-## 1️⃣1️⃣ What is cache stampede?
+## 11. What is cache stampede?
 
 ### Expected Answer
 When many requests simultaneously experience a cache miss and overload the database.
 
 ---
 
-## 1️⃣2️⃣ How do you prevent cache stampede?
+## 12. How do you prevent cache stampede?
 
 ### Expected Techniques
 - Lock per key
@@ -113,14 +113,14 @@ When many requests simultaneously experience a cache miss and overload the datab
 
 ---
 
-## 1️⃣3️⃣ Why is cache consistency harder in distributed systems?
+## 13. Why is cache consistency harder in distributed systems?
 
 ### Expected Answer
 Because multiple cache nodes may exist and network delays can cause partial or delayed invalidation.
 
 ---
 
-## 1️⃣4️⃣ Should financial balances rely on cache invalidation?
+## 14. Should financial balances rely on cache invalidation?
 
 ### Correct Answer
 No.
@@ -130,7 +130,7 @@ Critical financial data requires strong consistency and should not depend on cac
 
 ---
 
-## 1️⃣5️⃣ What is the safest general approach to cache invalidation?
+## 15. What is the safest general approach to cache invalidation?
 
 ### Expected Answer
 Update database first, then invalidate cache, and use TTL as a backup mechanism.

@@ -7,7 +7,7 @@ sidebar_label: Interview Questions
 
 ---
 
-## 1️⃣ Why is logging important in distributed systems?
+## 1. Why is logging important in distributed systems?
 
 ### Expected Answer
 Because distributed systems involve multiple services and machines, logs provide visibility into system behavior, failures, and request flow.
@@ -17,14 +17,14 @@ Because distributed systems involve multiple services and machines, logs provide
 
 ---
 
-## 2️⃣ What is structured logging?
+## 2. What is structured logging?
 
 ### Expected Answer
 Structured logging records logs in a machine-readable format (e.g., JSON) instead of plain text.
 
 ---
 
-## 3️⃣ Why is structured logging better than plain text logging?
+## 3. Why is structured logging better than plain text logging?
 
 ### Expected Points
 - Easier to search and filter
@@ -34,7 +34,7 @@ Structured logging records logs in a machine-readable format (e.g., JSON) instea
 
 ---
 
-## 4️⃣ What are common log levels?
+## 4. What are common log levels?
 
 ### Expected Answer
 - DEBUG
@@ -45,35 +45,35 @@ Structured logging records logs in a machine-readable format (e.g., JSON) instea
 
 ---
 
-## 5️⃣ What is centralized logging?
+## 5. What is centralized logging?
 
 ### Expected Answer
 Centralized logging collects logs from multiple services into a single system for easier search and analysis.
 
 ---
 
-## 6️⃣ Why is centralized logging necessary in microservices?
+## 6. Why is centralized logging necessary in microservices?
 
 ### Expected Answer
 Because logs are distributed across multiple instances and machines, making local log inspection impractical.
 
 ---
 
-## 7️⃣ What is a correlation ID?
+## 7. What is a correlation ID?
 
 ### Expected Answer
 A unique identifier attached to a request and propagated across services to trace the request flow.
 
 ---
 
-## 8️⃣ Why are correlation IDs important?
+## 8. Why are correlation IDs important?
 
 ### Expected Answer
 Because a single user request may pass through multiple services, and correlation IDs help track it end-to-end.
 
 ---
 
-## 9️⃣ What should never be logged?
+## 9. What should never be logged?
 
 ### Expected Answer
 - Passwords
@@ -84,7 +84,7 @@ Because a single user request may pass through multiple services, and correlatio
 
 ---
 
-## 🔟 What is the difference between logs and metrics?
+## 10. What is the difference between logs and metrics?
 
 ### Expected Answer
 - Logs provide detailed event-level information.
@@ -92,14 +92,14 @@ Because a single user request may pass through multiple services, and correlatio
 
 ---
 
-## 1️⃣1️⃣ How do log levels help reduce noise?
+## 11. How do log levels help reduce noise?
 
 ### Expected Answer
 They allow filtering logs based on severity so developers can focus on relevant information.
 
 ---
 
-## 1️⃣2️⃣ What problems arise from excessive logging?
+## 12. What problems arise from excessive logging?
 
 ### Expected Points
 - Increased storage cost
@@ -108,21 +108,21 @@ They allow filtering logs based on severity so developers can focus on relevant 
 
 ---
 
-## 1️⃣3️⃣ How do you debug a failed request in microservices?
+## 13. How do you debug a failed request in microservices?
 
 ### Expected Answer
 Use correlation ID to trace logs across services in a centralized logging system.
 
 ---
 
-## 1️⃣4️⃣ Why is timestamp important in logs?
+## 14. Why is timestamp important in logs?
 
 ### Expected Answer
 To understand event sequence and correlate events across distributed systems.
 
 ---
 
-## 1️⃣5️⃣ How do you secure logging systems?
+## 15. How do you secure logging systems?
 
 ### Expected Answer
 - Restrict access

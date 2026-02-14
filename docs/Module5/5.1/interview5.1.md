@@ -7,7 +7,7 @@ sidebar_label: Interview Questions
 
 ---
 
-## 1️⃣ What is synchronous communication?
+## 1. What is synchronous communication?
 
 ### Expected Answer
 Synchronous communication is a request-response model where the caller waits (blocks) until the callee returns a response.
@@ -17,7 +17,7 @@ Synchronous communication is a request-response model where the caller waits (bl
 
 ---
 
-## 2️⃣ What is asynchronous communication?
+## 2. What is asynchronous communication?
 
 ### Expected Answer
 Asynchronous communication allows a service to send a message or event without waiting for the receiver to process it.
@@ -27,7 +27,7 @@ Asynchronous communication allows a service to send a message or event without w
 
 ---
 
-## 3️⃣ What is the difference between blocking and non-blocking?
+## 3. What is the difference between blocking and non-blocking?
 
 ### Blocking
 Thread waits until operation completes.
@@ -37,7 +37,7 @@ Thread continues execution and handles response later (callback/event).
 
 ---
 
-## 4️⃣ What are the advantages of synchronous communication?
+## 4. What are the advantages of synchronous communication?
 
 ### Expected Points
 - Simple to implement
@@ -47,7 +47,7 @@ Thread continues execution and handles response later (callback/event).
 
 ---
 
-## 5️⃣ What are the disadvantages of synchronous communication?
+## 5. What are the disadvantages of synchronous communication?
 
 ### Expected Points
 - Tight coupling
@@ -57,7 +57,7 @@ Thread continues execution and handles response later (callback/event).
 
 ---
 
-## 6️⃣ What are the advantages of asynchronous communication?
+## 6. What are the advantages of asynchronous communication?
 
 ### Expected Points
 - Loose coupling
@@ -67,7 +67,7 @@ Thread continues execution and handles response later (callback/event).
 
 ---
 
-## 7️⃣ What are the disadvantages of asynchronous communication?
+## 7. What are the disadvantages of asynchronous communication?
 
 ### Expected Points
 - Increased complexity
@@ -77,14 +77,14 @@ Thread continues execution and handles response later (callback/event).
 
 ---
 
-## 8️⃣ REST vs Messaging — what’s the difference?
+## 8. REST vs Messaging — what’s the difference?
 
 ### Expected Answer
 REST follows synchronous request-response, while messaging supports asynchronous communication using queues or events.
 
 ---
 
-## 9️⃣ When should you use synchronous communication?
+## 9. When should you use synchronous communication?
 
 ### Expected Use Cases
 - Login requests
@@ -94,7 +94,7 @@ REST follows synchronous request-response, while messaging supports asynchronous
 
 ---
 
-## 🔟 When should you use asynchronous communication?
+## 10. When should you use asynchronous communication?
 
 ### Expected Use Cases
 - Sending emails
@@ -104,35 +104,35 @@ REST follows synchronous request-response, while messaging supports asynchronous
 
 ---
 
-## 1️⃣1️⃣ How does async communication improve scalability?
+## 11. How does async communication improve scalability?
 
 ### Expected Answer
 It decouples services and allows tasks to be processed independently, preventing bottlenecks in the main request flow.
 
 ---
 
-## 1️⃣2️⃣ What happens if a downstream service fails in synchronous communication?
+## 12. What happens if a downstream service fails in synchronous communication?
 
 ### Expected Answer
 The entire request fails or times out, leading to cascading failures.
 
 ---
 
-## 1️⃣3️⃣ What happens if a consumer fails in asynchronous communication?
+## 13. What happens if a consumer fails in asynchronous communication?
 
 ### Expected Answer
 The message can be retried later without affecting the main user request.
 
 ---
 
-## 1️⃣4️⃣ Why is idempotency important in asynchronous systems?
+## 14. Why is idempotency important in asynchronous systems?
 
 ### Expected Answer
 Because retries may cause duplicate message processing.
 
 ---
 
-## 1️⃣5️⃣ Give a real-world example of combining sync and async.
+## 15. Give a real-world example of combining sync and async.
 
 ### Expected Answer
 In a payment system:
