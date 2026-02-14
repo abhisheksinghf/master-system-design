@@ -1,4 +1,8 @@
-# System Design – Complete Learning Roadmap (Zero → Advanced)
+---
+title: 000
+sidebar_label: "Index"
+description: Master System Design Concepts
+---
 
 > Goal: Master system design fundamentals, real-world architectures, and interview-level thinking  
 > Format: Step-by-step lessons with explanations, examples, and Mermaid diagrams
