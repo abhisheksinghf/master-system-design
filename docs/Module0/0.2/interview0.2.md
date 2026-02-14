@@ -3,7 +3,7 @@
 
 ---
 
-## 1️⃣ Why should a system designer care about OS concepts?
+## 1. Why should a system designer care about OS concepts?
 
 ### Expected Answer
 Because OS concepts like threads, blocking I/O, and context switching directly affect:
@@ -17,7 +17,7 @@ Because OS concepts like threads, blocking I/O, and context switching directly a
 
 ---
 
-## 2️⃣ What is the difference between a process and a thread?
+## 2. What is the difference between a process and a thread?
 
 ### Key Differences
 
@@ -34,7 +34,7 @@ Because OS concepts like threads, blocking I/O, and context switching directly a
 
 ---
 
-## 3️⃣ Why are threads considered “not free”?
+## 3. Why are threads considered “not free”?
 
 ### Expected Points
 - Memory overhead
@@ -46,7 +46,7 @@ Because OS concepts like threads, blocking I/O, and context switching directly a
 
 ---
 
-## 4️⃣ What is context switching and why is it expensive?
+## 4. What is context switching and why is it expensive?
 
 ### Expected Answer
 Context switching happens when the CPU switches execution from one thread to another.  
@@ -58,7 +58,7 @@ It is expensive because the CPU must save and restore thread state and loses cac
 
 ---
 
-## 5️⃣ Difference between concurrency and parallelism?
+## 5. Difference between concurrency and parallelism?
 
 ### Expected Answer
 - **Concurrency**: Multiple tasks making progress (time slicing)
@@ -69,7 +69,7 @@ It is expensive because the CPU must save and restore thread state and loses cac
 
 ---
 
-## 6️⃣ What is blocking I/O?
+## 6. What is blocking I/O?
 
 ### Expected Answer
 In blocking I/O, a thread waits until the I/O operation (DB call, network call) completes, making the thread unavailable during that time.
@@ -80,7 +80,7 @@ In blocking I/O, a thread waits until the I/O operation (DB call, network call) 
 
 ---
 
-## 7️⃣ What is non-blocking I/O and why is it better for scalable systems?
+## 7. What is non-blocking I/O and why is it better for scalable systems?
 
 ### Expected Answer
 Non-blocking I/O allows a thread to initiate an I/O operation and continue processing other tasks, improving resource utilization and throughput.
@@ -90,7 +90,7 @@ Non-blocking I/O allows a thread to initiate an I/O operation and continue proce
 
 ---
 
-## 8️⃣ Are most backend systems CPU-bound or I/O-bound?
+## 8. Are most backend systems CPU-bound or I/O-bound?
 
 ### Correct Answer
 **I/O-bound**
@@ -105,7 +105,7 @@ Say this confidently — interviewers love it.
 
 ---
 
-## 9️⃣ What problems do locks introduce in systems?
+## 9. What problems do locks introduce in systems?
 
 ### Expected Points
 - Reduced concurrency
@@ -117,7 +117,7 @@ Say this confidently — interviewers love it.
 
 ---
 
-## 🔟 What is a deadlock?
+## 10. What is a deadlock?
 
 ### Expected Answer
 A deadlock occurs when two or more threads are waiting indefinitely for resources held by each other.
@@ -129,7 +129,7 @@ A deadlock occurs when two or more threads are waiting indefinitely for resource
 
 ---
 
-## 1️⃣1️⃣ Why are thread pools used?
+## 11. Why are thread pools used?
 
 ### Expected Answer
 Thread pools:
@@ -143,7 +143,7 @@ Thread pools:
 
 ---
 
-## 1️⃣2️⃣ What happens if thread pool size is too small or too large?
+## 12. What happens if thread pool size is too small or too large?
 
 ### Too Small
 - Requests queue up
@@ -158,14 +158,14 @@ Thread pools:
 
 ---
 
-## 1️⃣3️⃣ How does blocking I/O affect a thread pool?
+## 13. How does blocking I/O affect a thread pool?
 
 ### Expected Answer
 Blocking I/O causes threads to stay occupied while waiting, reducing the number of concurrent requests the system can handle.
 
 ---
 
-## 1️⃣4️⃣ How do OS concepts influence horizontal scaling?
+## 14. How do OS concepts influence horizontal scaling?
 
 ### Expected Answer
 - Stateless services reduce synchronization

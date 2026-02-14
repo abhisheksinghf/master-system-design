@@ -7,7 +7,7 @@ sidebar_label: Interview Questions
 
 ---
 
-## 1️⃣ What is a health check?
+## 1. What is a health check?
 
 ### Expected Answer
 A health check is a mechanism used to determine whether a service is functioning correctly and can handle traffic.
@@ -17,7 +17,7 @@ A health check is a mechanism used to determine whether a service is functioning
 
 ---
 
-## 2️⃣ What is the difference between liveness and readiness checks?
+## 2. What is the difference between liveness and readiness checks?
 
 ### Expected Answer
 
@@ -29,7 +29,7 @@ A health check is a mechanism used to determine whether a service is functioning
 
 ---
 
-## 3️⃣ When should a liveness check fail?
+## 3. When should a liveness check fail?
 
 ### Expected Answer
 - Application crash
@@ -39,7 +39,7 @@ A health check is a mechanism used to determine whether a service is functioning
 
 ---
 
-## 4️⃣ When should a readiness check fail?
+## 4. When should a readiness check fail?
 
 ### Expected Answer
 - Database unavailable
@@ -49,28 +49,28 @@ A health check is a mechanism used to determine whether a service is functioning
 
 ---
 
-## 5️⃣ Why is readiness check important in microservices?
+## 5. Why is readiness check important in microservices?
 
 ### Expected Answer
 Because services may depend on other systems, and even if the service is running, it may not be ready to handle requests.
 
 ---
 
-## 6️⃣ What happens if you confuse liveness and readiness?
+## 6. What happens if you confuse liveness and readiness?
 
 ### Expected Answer
 The system may restart unnecessarily or continue routing traffic to unhealthy services.
 
 ---
 
-## 7️⃣ What is monitoring?
+## 7. What is monitoring?
 
 ### Expected Answer
 Monitoring is the process of collecting and analyzing system metrics to ensure system health and performance.
 
 ---
 
-## 8️⃣ What are key metrics to monitor?
+## 8. What are key metrics to monitor?
 
 ### Expected Points
 - Latency
@@ -82,42 +82,42 @@ Monitoring is the process of collecting and analyzing system metrics to ensure s
 
 ---
 
-## 9️⃣ Why is monitoring important in distributed systems?
+## 9. Why is monitoring important in distributed systems?
 
 ### Expected Answer
 Because issues may not be visible immediately, and early detection prevents large-scale failures.
 
 ---
 
-## 🔟 What is alerting?
+## 10. What is alerting?
 
 ### Expected Answer
 Alerting is the mechanism that notifies engineers when monitored metrics exceed predefined thresholds.
 
 ---
 
-## 1️⃣1️⃣ What is auto-scaling?
+## 11. What is auto-scaling?
 
 ### Expected Answer
 Auto-scaling automatically increases or decreases the number of service instances based on system load.
 
 ---
 
-## 1️⃣2️⃣ How does auto-scaling improve reliability?
+## 12. How does auto-scaling improve reliability?
 
 ### Expected Answer
 It handles traffic spikes and prevents overload by adding more instances when necessary.
 
 ---
 
-## 1️⃣3️⃣ What happens if you don’t monitor queue backlog?
+## 13. What happens if you don’t monitor queue backlog?
 
 ### Expected Answer
 You may miss increasing load, leading to delays and eventual system failure.
 
 ---
 
-## 1️⃣4️⃣ In a payment system, what should be monitored closely?
+## 14. In a payment system, what should be monitored closely?
 
 ### Expected Answer
 - Payment success rate
@@ -127,7 +127,7 @@ You may miss increasing load, leading to delays and eventual system failure.
 
 ---
 
-## 1️⃣5️⃣ Why is alert fatigue dangerous?
+## 15. Why is alert fatigue dangerous?
 
 ### Expected Answer
 Too many false alerts cause engineers to ignore alerts, potentially missing real incidents.

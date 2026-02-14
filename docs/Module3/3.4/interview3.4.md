@@ -7,7 +7,7 @@ sidebar_label: Interview Questions
 
 ---
 
-## 1️⃣ What is database replication?
+## 1. What is database replication?
 
 ### Expected Answer
 Database replication is the process of maintaining multiple copies of the same data across different database nodes to improve availability, fault tolerance, and read scalability.
@@ -17,7 +17,7 @@ Database replication is the process of maintaining multiple copies of the same d
 
 ---
 
-## 2️⃣ Why is database replication needed?
+## 2. Why is database replication needed?
 
 ### Expected Points
 - Avoid Single Point of Failure (SPOF)
@@ -26,14 +26,14 @@ Database replication is the process of maintaining multiple copies of the same d
 
 ---
 
-## 3️⃣ What is primary–replica (master–slave) replication?
+## 3. What is primary–replica (master–slave) replication?
 
 ### Expected Answer
 In primary–replica replication, all writes go to the primary database, and replicas asynchronously or synchronously copy data from the primary and usually serve read requests.
 
 ---
 
-## 4️⃣ Does replication improve write scalability?
+## 4. Does replication improve write scalability?
 
 ### Correct Answer
 No.
@@ -46,7 +46,7 @@ Writes still go to a single primary, which remains the write bottleneck.
 
 ---
 
-## 5️⃣ What is replication lag?
+## 5. What is replication lag?
 
 ### Expected Answer
 Replication lag is the delay between when data is written to the primary and when it becomes visible on replicas.
@@ -57,7 +57,7 @@ Replication lag is the delay between when data is written to the primary and whe
 
 ---
 
-## 6️⃣ How do you handle stale reads caused by replication lag?
+## 6. How do you handle stale reads caused by replication lag?
 
 ### Expected Strategies
 - Read from primary for critical data
@@ -66,7 +66,7 @@ Replication lag is the delay between when data is written to the primary and whe
 
 ---
 
-## 7️⃣ Difference between synchronous and asynchronous replication?
+## 7. Difference between synchronous and asynchronous replication?
 
 ### Asynchronous Replication
 - Primary does not wait for replicas
@@ -80,7 +80,7 @@ Replication lag is the delay between when data is written to the primary and whe
 
 ---
 
-## 8️⃣ Which replication type is more commonly used and why?
+## 8. Which replication type is more commonly used and why?
 
 ### Correct Answer
 Asynchronous replication.
@@ -90,14 +90,14 @@ It provides better performance and availability with acceptable eventual consist
 
 ---
 
-## 9️⃣ What is failover in database replication?
+## 9. What is failover in database replication?
 
 ### Expected Answer
 Failover is the process of promoting a replica to primary when the primary database fails.
 
 ---
 
-## 🔟 What are challenges during failover?
+## 10. What are challenges during failover?
 
 ### Expected Points
 - Data loss due to replication lag
@@ -106,14 +106,14 @@ Failover is the process of promoting a replica to primary when the primary datab
 
 ---
 
-## 1️⃣1️⃣ What is split-brain in replication?
+## 11. What is split-brain in replication?
 
 ### Expected Answer
 Split-brain occurs when multiple database nodes believe they are the primary and accept writes, leading to data inconsistency.
 
 ---
 
-## 1️⃣2️⃣ What is multi-primary (multi-master) replication?
+## 12. What is multi-primary (multi-master) replication?
 
 ### Expected Answer
 A replication model where multiple nodes accept writes and synchronize changes with each other.
@@ -124,14 +124,14 @@ A replication model where multiple nodes accept writes and synchronize changes w
 
 ---
 
-## 1️⃣3️⃣ Why is multi-primary replication rarely used for transactions?
+## 13. Why is multi-primary replication rarely used for transactions?
 
 ### Expected Answer
 Because resolving write conflicts while maintaining strong consistency is complex and error-prone.
 
 ---
 
-## 1️⃣4️⃣ Replication vs sharding?
+## 14. Replication vs sharding?
 
 ### Expected Answer
 - **Replication** → copies the same data to multiple nodes
@@ -142,7 +142,7 @@ Because resolving write conflicts while maintaining strong consistency is comple
 
 ---
 
-## 1️⃣5️⃣ How does replication relate to CAP theorem?
+## 15. How does replication relate to CAP theorem?
 
 ### Expected Answer
 Replication improves availability, but during network partitions the system must choose between consistency and availability, often resulting in eventual consistency.

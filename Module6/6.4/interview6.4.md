@@ -7,7 +7,7 @@ sidebar_label: Interview Questions
 
 ---
 
-## 1️⃣ What is rate limiting?
+## 1. What is rate limiting?
 
 ### Expected Answer
 Rate limiting is a mechanism that restricts the number of requests a client can make within a specified time window to protect system stability.
@@ -17,7 +17,7 @@ Rate limiting is a mechanism that restricts the number of requests a client can 
 
 ---
 
-## 2️⃣ Why is rate limiting important in distributed systems?
+## 2. Why is rate limiting important in distributed systems?
 
 ### Expected Points
 - Prevent abuse and bot attacks
@@ -28,35 +28,35 @@ Rate limiting is a mechanism that restricts the number of requests a client can 
 
 ---
 
-## 3️⃣ What HTTP status code is returned when rate limit is exceeded?
+## 3. What HTTP status code is returned when rate limit is exceeded?
 
 ### Expected Answer
 HTTP 429 – Too Many Requests.
 
 ---
 
-## 4️⃣ What is the Token Bucket algorithm?
+## 4. What is the Token Bucket algorithm?
 
 ### Expected Answer
 Tokens are added to a bucket at a fixed rate. Each request consumes a token. If no tokens are available, the request is rejected.
 
 ---
 
-## 5️⃣ What is the main advantage of Token Bucket?
+## 5. What is the main advantage of Token Bucket?
 
 ### Expected Answer
 It allows short bursts of traffic while maintaining an average rate limit.
 
 ---
 
-## 6️⃣ What is the Leaky Bucket algorithm?
+## 6. What is the Leaky Bucket algorithm?
 
 ### Expected Answer
 Requests enter a queue and are processed at a constant rate. Excess requests are dropped if the queue is full.
 
 ---
 
-## 7️⃣ What is the key difference between Token Bucket and Leaky Bucket?
+## 7. What is the key difference between Token Bucket and Leaky Bucket?
 
 ### Expected Answer
 
@@ -65,28 +65,28 @@ Requests enter a queue and are processed at a constant rate. Excess requests are
 
 ---
 
-## 8️⃣ What is Fixed Window rate limiting?
+## 8. What is Fixed Window rate limiting?
 
 ### Expected Answer
 Counts requests in a fixed time window (e.g., 100 requests per minute). Resets counter after window ends.
 
 ---
 
-## 9️⃣ What is Sliding Window rate limiting?
+## 9. What is Sliding Window rate limiting?
 
 ### Expected Answer
 Tracks requests over a rolling time window to reduce burst issues at window boundaries.
 
 ---
 
-## 🔟 How do you implement rate limiting in a distributed system?
+## 10. How do you implement rate limiting in a distributed system?
 
 ### Expected Answer
 Use a centralized data store (like Redis) with atomic increment operations to maintain consistent request counters across instances.
 
 ---
 
-## 1️⃣1️⃣ What challenges arise in distributed rate limiting?
+## 11. What challenges arise in distributed rate limiting?
 
 ### Expected Points
 - Race conditions
@@ -96,7 +96,7 @@ Use a centralized data store (like Redis) with atomic increment operations to ma
 
 ---
 
-## 1️⃣2️⃣ Where is rate limiting typically applied?
+## 12. Where is rate limiting typically applied?
 
 ### Expected Answer
 - API Gateway
@@ -106,7 +106,7 @@ Use a centralized data store (like Redis) with atomic increment operations to ma
 
 ---
 
-## 1️⃣3️⃣ What is the difference between rate limiting and throttling?
+## 13. What is the difference between rate limiting and throttling?
 
 ### Expected Answer
 - Rate limiting restricts number of requests.
@@ -114,14 +114,14 @@ Use a centralized data store (like Redis) with atomic increment operations to ma
 
 ---
 
-## 1️⃣4️⃣ How would you rate limit login attempts?
+## 14. How would you rate limit login attempts?
 
 ### Expected Answer
 Limit failed login attempts per IP or per user ID within a time window (e.g., 5 attempts per minute).
 
 ---
 
-## 1️⃣5️⃣ Why is burst allowance useful?
+## 15. Why is burst allowance useful?
 
 ### Expected Answer
 It allows legitimate users to make short bursts of requests without being blocked while maintaining overall rate control.

@@ -7,7 +7,7 @@ sidebar_label: Interview Questions
 
 ---
 
-## 1️⃣ What is the CAP Theorem?
+## 1. What is the CAP Theorem?
 
 ### Expected Answer
 The CAP Theorem states that a distributed system can guarantee at most two of the following three properties at the same time: Consistency, Availability, and Partition Tolerance.
@@ -17,7 +17,7 @@ The CAP Theorem states that a distributed system can guarantee at most two of th
 
 ---
 
-## 2️⃣ What do Consistency, Availability, and Partition Tolerance mean?
+## 2. What do Consistency, Availability, and Partition Tolerance mean?
 
 ### Consistency (C)
 All clients see the most recent write.
@@ -30,7 +30,7 @@ The system continues to operate despite network failures between nodes.
 
 ---
 
-## 3️⃣ Why is partition tolerance mandatory in distributed systems?
+## 3. Why is partition tolerance mandatory in distributed systems?
 
 ### Expected Answer
 Because network failures are inevitable in distributed systems, so systems must tolerate partitions to function correctly.
@@ -40,7 +40,7 @@ Because network failures are inevitable in distributed systems, so systems must 
 
 ---
 
-## 4️⃣ Can a system be CA in real-world distributed systems?
+## 4. Can a system be CA in real-world distributed systems?
 
 ### Correct Answer
 No.
@@ -50,14 +50,14 @@ CA systems assume no network partitions, which is unrealistic once systems are d
 
 ---
 
-## 5️⃣ What happens during a network partition?
+## 5. What happens during a network partition?
 
 ### Expected Answer
 Nodes cannot communicate with each other, forcing the system to choose between consistency and availability.
 
 ---
 
-## 6️⃣ What is a CP system?
+## 6. What is a CP system?
 
 ### Expected Answer
 A CP system prioritizes consistency and partition tolerance, potentially rejecting requests during network failures to maintain correctness.
@@ -68,7 +68,7 @@ A CP system prioritizes consistency and partition tolerance, potentially rejecti
 
 ---
 
-## 7️⃣ What is an AP system?
+## 7. What is an AP system?
 
 ### Expected Answer
 An AP system prioritizes availability and partition tolerance, always responding to requests even if data may be stale.
@@ -80,7 +80,7 @@ An AP system prioritizes availability and partition tolerance, always responding
 
 ---
 
-## 8️⃣ Which CAP model do payment systems usually follow and why?
+## 8. Which CAP model do payment systems usually follow and why?
 
 ### Correct Answer
 CP.
@@ -90,7 +90,7 @@ Correctness is more important than availability; returning incorrect data is una
 
 ---
 
-## 9️⃣ Which CAP model do social media systems usually follow and why?
+## 9. Which CAP model do social media systems usually follow and why?
 
 ### Correct Answer
 AP.
@@ -100,7 +100,7 @@ Showing slightly stale data is acceptable, but the system must always respond.
 
 ---
 
-## 🔟 Does CAP mean you must choose only one model for the entire system?
+## 10. Does CAP mean you must choose only one model for the entire system?
 
 ### Correct Answer
 No.
@@ -113,7 +113,7 @@ Modern systems often make CAP trade-offs per operation rather than system-wide.
 
 ---
 
-## 1️⃣1️⃣ Does CAP apply all the time?
+## 11. Does CAP apply all the time?
 
 ### Correct Answer
 No.
@@ -123,14 +123,14 @@ CAP trade-offs only apply during network partitions.
 
 ---
 
-## 1️⃣2️⃣ How does CAP relate to latency?
+## 12. How does CAP relate to latency?
 
 ### Expected Answer
 Stronger consistency requires more coordination between nodes, which increases latency.
 
 ---
 
-## 1️⃣3️⃣ Is an AP system eventually consistent?
+## 13. Is an AP system eventually consistent?
 
 ### Expected Answer
 Yes.
@@ -140,7 +140,7 @@ AP systems rely on eventual consistency to synchronize data after partitions hea
 
 ---
 
-## 1️⃣4️⃣ What are common misconceptions about CAP?
+## 14. What are common misconceptions about CAP?
 
 ### Expected Points
 - You always choose two forever ❌
@@ -149,7 +149,7 @@ AP systems rely on eventual consistency to synchronize data after partitions hea
 
 ---
 
-## 1️⃣5️⃣ Give a real-world example where availability is preferred over consistency.
+## 15. Give a real-world example where availability is preferred over consistency.
 
 ### Expected Answer
 - Social media feeds

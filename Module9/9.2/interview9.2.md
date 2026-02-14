@@ -7,7 +7,7 @@ sidebar_label: Interview Questions
 
 ---
 
-## 1️⃣ What is the difference between logs and metrics?
+## 1. What is the difference between logs and metrics?
 
 ### Expected Answer
 - Logs provide detailed event-level records.
@@ -18,7 +18,7 @@ sidebar_label: Interview Questions
 
 ---
 
-## 2️⃣ What are the four golden signals?
+## 2. What are the four golden signals?
 
 ### Expected Answer
 - Latency
@@ -28,56 +28,56 @@ sidebar_label: Interview Questions
 
 ---
 
-## 3️⃣ Why is latency important?
+## 3. Why is latency important?
 
 ### Expected Answer
 Latency directly impacts user experience and system responsiveness.
 
 ---
 
-## 4️⃣ Why should we monitor p95 or p99 latency instead of average latency?
+## 4. Why should we monitor p95 or p99 latency instead of average latency?
 
 ### Expected Answer
 Because average latency can hide slow requests. Percentiles reveal tail latency, which impacts real users.
 
 ---
 
-## 5️⃣ What is traffic in monitoring?
+## 5. What is traffic in monitoring?
 
 ### Expected Answer
 Traffic refers to system load, such as requests per second (RPS) or queries per second (QPS).
 
 ---
 
-## 6️⃣ What does saturation measure?
+## 6. What does saturation measure?
 
 ### Expected Answer
 Saturation measures how close a system is to its capacity limits (e.g., CPU, memory, thread pool usage).
 
 ---
 
-## 7️⃣ What is an SLI?
+## 7. What is an SLI?
 
 ### Expected Answer
 A Service Level Indicator (SLI) is a measured metric that reflects system performance (e.g., request success rate).
 
 ---
 
-## 8️⃣ What is an SLO?
+## 8. What is an SLO?
 
 ### Expected Answer
 A Service Level Objective (SLO) is a target value for an SLI (e.g., 99.9% uptime).
 
 ---
 
-## 9️⃣ What is an SLA?
+## 9. What is an SLA?
 
 ### Expected Answer
 A Service Level Agreement (SLA) is a contractual agreement defining service guarantees and penalties.
 
 ---
 
-## 🔟 What is the difference between monitoring and alerting?
+## 10. What is the difference between monitoring and alerting?
 
 ### Expected Answer
 - Monitoring collects and visualizes metrics.
@@ -85,7 +85,7 @@ A Service Level Agreement (SLA) is a contractual agreement defining service guar
 
 ---
 
-## 1️⃣1️⃣ What metrics would you monitor in a payment system?
+## 11. What metrics would you monitor in a payment system?
 
 ### Expected Points
 - Payment success rate
@@ -97,28 +97,28 @@ A Service Level Agreement (SLA) is a contractual agreement defining service guar
 
 ---
 
-## 1️⃣2️⃣ Why is high CPU usage alone not sufficient to detect issues?
+## 12. Why is high CPU usage alone not sufficient to detect issues?
 
 ### Expected Answer
 Because user-facing problems are better detected through latency and error rate metrics.
 
 ---
 
-## 1️⃣3️⃣ What is tail latency?
+## 13. What is tail latency?
 
 ### Expected Answer
 Tail latency refers to the slowest requests (e.g., p95 or p99 latency).
 
 ---
 
-## 1️⃣4️⃣ What happens if alerts are too sensitive?
+## 14. What happens if alerts are too sensitive?
 
 ### Expected Answer
 Alert fatigue occurs, causing engineers to ignore real issues.
 
 ---
 
-## 1️⃣5️⃣ What should alerts be based on?
+## 15. What should alerts be based on?
 
 ### Expected Answer
 User-impacting metrics such as high error rate or latency rather than minor internal fluctuations.
