@@ -4,48 +4,36 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
+    title: 'Complete Learning Journey',
+    badge: '17 modules',
+    description:
+      'Go from first principles to advanced distributed architecture with a structured, progressive roadmap.',
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
+    title: 'Interview + Real-World Focus',
+    badge: 'Practical',
+    description:
+      'Every module blends design fundamentals, trade-offs, and interview framing so you can communicate confidently.',
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
+    title: 'Production Thinking',
+    badge: 'Scalability',
+    description:
+      'Learn how reliability, observability, cost, security, and cloud-native patterns fit together in real systems.',
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({title, badge, description}) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+    <article className={clsx('col col--4', styles.cardWrap)}>
+      <div className={styles.featureCard}>
+        <span className={styles.badge}>{badge}</span>
+        <Heading as="h3" className={styles.featureTitle}>
+          {title}
+        </Heading>
+        <p className={styles.featureDescription}>{description}</p>
       </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
-      </div>
-    </div>
+    </article>
   );
 }
 
@@ -53,9 +41,15 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
+        <div className={styles.sectionHeader}>
+          <Heading as="h2">Why this master system design guide stands out</Heading>
+          <p>
+            Crafted for serious learners who want depth, structure, and premium clarity.
+          </p>
+        </div>
         <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
+          {FeatureList.map((props) => (
+            <Feature key={props.title} {...props} />
           ))}
         </div>
       </div>

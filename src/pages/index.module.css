@@ -1,23 +1,168 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
 .heroBanner {
-  padding: 4rem 0;
-  text-align: center;
   position: relative;
   overflow: hidden;
+  padding: 5.5rem 0 4.5rem;
+  background:
+    radial-gradient(circle at 12% 15%, rgba(80, 130, 255, 0.28), transparent 45%),
+    radial-gradient(circle at 90% 10%, rgba(111, 76, 255, 0.3), transparent 40%),
+    linear-gradient(135deg, #f8fbff 0%, #edf2ff 40%, #f6f0ff 100%);
+}
+
+[data-theme='dark'] .heroBanner {
+  background:
+    radial-gradient(circle at 10% 20%, rgba(53, 98, 255, 0.45), transparent 40%),
+    radial-gradient(circle at 88% 12%, rgba(150, 73, 255, 0.38), transparent 40%),
+    linear-gradient(135deg, #0b1020 0%, #101631 50%, #180f31 100%);
+}
+
+.heroContent {
+  max-width: 980px;
+  text-align: center;
+}
+
+.kicker {
+  display: inline-block;
+  margin-bottom: 1rem;
+  border-radius: 999px;
+  background: rgba(56, 112, 255, 0.12);
+  color: #2a4ec7;
+  padding: 0.4rem 0.9rem;
+  font-size: 0.86rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+[data-theme='dark'] .kicker {
+  background: rgba(108, 155, 255, 0.18);
+  color: #c8dcff;
+}
+
+.title {
+  font-size: clamp(2.2rem, 5vw, 4rem);
+  line-height: 1.1;
+  margin-bottom: 0.9rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: #11162f;
+}
+
+[data-theme='dark'] .title {
+  color: #f8faff;
+}
+
+.subtitle {
+  max-width: 760px;
+  margin: 0 auto 1.8rem;
+  font-size: clamp(1rem, 2vw, 1.28rem);
+  color: #394466;
+}
+
+[data-theme='dark'] .subtitle {
+  color: #d5defc;
+}
+
+.ctaRow {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.4rem;
+}
+
+.primaryCta {
+  background: linear-gradient(120deg, #285bff 0%, #7738ff 100%);
+  border: none;
+  color: #fff;
+  box-shadow: 0 10px 30px rgba(66, 76, 221, 0.35);
+}
+
+.primaryCta:hover {
+  color: #fff;
+  filter: brightness(1.05);
+}
+
+.secondaryCta {
+  background: transparent;
+  color: #2f3f81;
+  border: 1px solid rgba(60, 76, 160, 0.35);
+}
+
+[data-theme='dark'] .secondaryCta {
+  color: #d6defc;
+  border-color: rgba(151, 171, 255, 0.35);
+}
+
+.trackPills {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin: 0 auto 1.8rem;
+}
+
+.trackPill {
+  font-size: 0.86rem;
+  font-weight: 600;
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid rgba(58, 89, 178, 0.2);
+  background: rgba(255, 255, 255, 0.65);
+  color: #334275;
+  backdrop-filter: blur(4px);
+}
+
+[data-theme='dark'] .trackPill {
+  background: rgba(19, 26, 54, 0.64);
+  color: #ccdaff;
+  border-color: rgba(126, 155, 255, 0.24);
+}
+
+.overviewCard {
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: left;
+  border-radius: 20px;
+  padding: 1.4rem 1.5rem;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(74, 101, 196, 0.16);
+  box-shadow: 0 20px 45px rgba(59, 78, 171, 0.14);
+}
+
+[data-theme='dark'] .overviewCard {
+  background: rgba(15, 22, 48, 0.72);
+  border: 1px solid rgba(130, 151, 255, 0.2);
+  box-shadow: 0 22px 50px rgba(0, 0, 0, 0.45);
+}
+
+.overviewTitle {
+  margin-bottom: 0.65rem;
+  font-size: 1.25rem;
+  color: #202a51;
+}
+
+[data-theme='dark'] .overviewTitle {
+  color: #edf2ff;
+}
+
+.overviewList {
+  margin: 0;
+  padding-left: 1.25rem;
+  color: #303d66;
+  display: grid;
+  gap: 0.42rem;
+}
+
+[data-theme='dark'] .overviewList {
+  color: #d3def9;
 }
 
 @media screen and (max-width: 996px) {
   .heroBanner {
-    padding: 2rem;
+    padding: 4rem 0 3.2rem;
   }
-}
 
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  .overviewCard {
+    padding: 1.15rem;
+  }
 }

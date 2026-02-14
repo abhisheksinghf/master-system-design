@@ -2,46 +2,38 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Master System Design: Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to the **Master System Design** documentation.
 
-## Getting Started
+This guide is structured as a complete journey—from foundations to advanced distributed architecture—so you can think like a system designer in real projects and interviews.
 
-Get started by **creating a new site**.
+## What you are going to learn (overview)
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+- How to break down product requirements into system design decisions.
+- How to reason about scalability, latency, throughput, and consistency trade-offs.
+- How to design resilient backends with databases, caching layers, and message queues.
+- How to plan for reliability, observability, security, and operations at scale.
+- How to communicate designs clearly in interviews using practical frameworks.
 
-### What you'll need
+## Learning path snapshot
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+1. **Foundation**: Networking, OS basics, backend fundamentals.
+2. **Core Design**: Requirements, scalability, CAP theorem, consistency models.
+3. **Data & Performance**: Storage engines, replication, sharding, caching patterns.
+4. **Distributed Systems**: Coordination, consensus, global and geo-distributed systems.
+5. **Production Readiness**: SRE, cloud-native, security, cost, and architecture patterns.
 
-## Generate a new site
+## How to use this documentation
 
-Generate a new Docusaurus site using the **classic template**.
+- Start with the roadmap at **Docs → Index**.
+- Study each module concept page first, then use its interview page for practice.
+- Focus on trade-offs and failure scenarios for every design decision.
 
-The classic template will automatically be added to your project after you run the command:
+## Recommended pace
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+- **Beginner**: 3–4 modules/week.
+- **Intermediate**: 5–6 modules/week with interview practice.
+- **Interview prep mode**: Revise high-impact modules (1, 3, 4, 5, 6, 7, 11, 15).
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Ready? Start with the complete roadmap in [Index](./index.md).
