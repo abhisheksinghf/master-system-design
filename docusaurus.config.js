@@ -50,7 +50,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/abhisheksinghf/master-system-design/tree/main',
         },
         blog: {
           showReadingTime: true,
@@ -92,15 +92,15 @@ const config = {
         },
         items: [
           {
-            to: '/docs',
-            label: 'Roadmap',
-            position: 'left',
-          },
-          {
             to: '/docs/intro',
             label: 'Get Started',
             position: 'left',
           },
+          {
+            to: '/docs/content',
+            label: 'Roadmap',
+            position: 'left',
+          }
         ],
       },
       footer: {
@@ -110,47 +110,27 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Getting Started',
                 to: '/docs/intro',
               },
               {
-                label: 'Contents',
+                label: 'Table of Contents',
                 to: '/docs/content',
               },
             ],
           },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
-            ],
-          },
+          
           {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/abhisheksinghf/master-system-design',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Master System Design. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Master System Design. Educational content. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

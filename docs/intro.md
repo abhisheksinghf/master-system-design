@@ -1,39 +1,90 @@
 ---
 sidebar_position: 1
+title: Getting Started
+sidebar_label: "Introduction"
+description: Overview of the System Design learning journey from fundamentals to advanced concepts
 ---
 
-# Master System Design: Introduction
+# System Design – Course Overview
 
-Welcome to the **Master System Design** documentation.
+Welcome to this System Design learning journey.
 
-This guide is structured as a complete journey—from foundations to advanced distributed architecture—so you can think like a system designer in real projects and interviews.
+This course is designed to help you understand how large-scale systems are built, scaled, secured, and maintained in real-world production environments.
 
-## What you are going to learn (overview)
+It focuses on building deep conceptual clarity rather than memorizing architectures.
 
-- How to break down product requirements into system design decisions.
-- How to reason about scalability, latency, throughput, and consistency trade-offs.
-- How to design resilient backends with databases, caching layers, and message queues.
-- How to plan for reliability, observability, security, and operations at scale.
-- How to communicate designs clearly in interviews using practical frameworks.
+---
 
-## Learning path snapshot
+## 🎯 What You Will Learn
 
-1. **Foundation**: Networking, OS basics, backend fundamentals.
-2. **Core Design**: Requirements, scalability, CAP theorem, consistency models.
-3. **Data & Performance**: Storage engines, replication, sharding, caching patterns.
-4. **Distributed Systems**: Coordination, consensus, global and geo-distributed systems.
-5. **Production Readiness**: SRE, cloud-native, security, cost, and architecture patterns.
+By following this course, you will:
 
-## How to use this documentation
+- Understand how scalable systems are designed
+- Learn how to handle high traffic and large datasets
+- Design systems that are reliable and fault-tolerant
+- Apply distributed systems concepts confidently
+- Make informed architectural trade-offs
+- Approach system design interviews with structure
 
-- Start with the roadmap at **Docs → Index**.
-- Study each module concept page first, then use its interview page for practice.
-- Focus on trade-offs and failure scenarios for every design decision.
+---
 
-## Recommended pace
+## 🧠 What Is System Design?
 
-- **Beginner**: 3–4 modules/week.
-- **Intermediate**: 5–6 modules/week with interview practice.
-- **Interview prep mode**: Revise high-impact modules (1, 3, 4, 5, 6, 7, 11, 15).
+System Design is the process of defining:
 
-Ready? Start with the complete roadmap in [Index](./index.md).
+- System architecture
+- Components
+- Data flow
+- Scalability strategies
+- Reliability mechanisms
+- Security considerations
+
+It answers questions like:
+
+- How do we handle millions of users?
+- How do we prevent system failures?
+- How do we scale databases?
+- How do we reduce latency?
+- How do we design for reliability?
+
+---
+
+## 🏗 The Core Philosophy
+
+System design is not about one “perfect” solution.
+
+It is about:
+
+- Understanding constraints
+- Identifying bottlenecks
+- Making trade-offs
+- Designing for scale
+- Designing for failure
+
+Great engineers think in trade-offs, not absolutes.
+
+---
+
+## 🚀 Who This Is For
+
+This course is ideal for:
+
+- Backend engineers
+- Full-stack developers
+- Engineers preparing for product companies
+- Developers transitioning to senior roles
+- Anyone building scalable systems
+
+---
+
+## 📌 How to Approach This Course
+
+To get the most value:
+
+- Focus on understanding concepts deeply
+- Practice explaining ideas clearly
+- Think about trade-offs in every design
+- Revisit difficult topics multiple times
+- Apply concepts to real-world examples
+
+---

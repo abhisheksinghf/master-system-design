@@ -1,6 +1,7 @@
 ---
+sidebar_position: 2
 title: Master System Design
-sidebar_label: "000 Index"
+sidebar_label: "Table of Contents"
 description: Master System Design Concepts
 ---
 

@@ -26,19 +26,19 @@ const trackPills = [
 ];
 
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
 
   return (
     <header className={clsx('hero', styles.heroBanner)}>
       <div className={clsx('container', styles.heroContent)}>
-        <p className={styles.kicker}>Master Program • Premium Learning Path</p>
+        <p className={styles.kicker}>Designing Scalable Systems, Step by Step</p>
         <Heading as="h1" className={styles.title}>
           {siteConfig.title}
         </Heading>
         <p className={styles.subtitle}>{siteConfig.tagline}</p>
 
         <div className={styles.ctaRow}>
-          <Link className={clsx('button button--lg', styles.primaryCta)} to="/docs">
+          <Link className={clsx('button button--lg', styles.primaryCta)} to="/docs/content">
             Start the Roadmap
           </Link>
           <Link className={clsx('button button--lg', styles.secondaryCta)} to="/docs/intro">
@@ -64,13 +64,30 @@ function HomepageHeader() {
             ))}
           </ul>
         </section>
+        <section className={styles.contributionCard} aria-label="Contributions">
+          <Heading as="h2" className={styles.contributionTitle}>
+            Open for Contributions 🚀
+          </Heading>
+          <p className={styles.contributionText}>
+            This project is community-driven and open to improvements.
+            If you'd like to enhance explanations, fix issues, add diagrams,
+            or contribute new case studies, feel free to submit a pull request.
+          </p>
+          <Link
+            className={clsx('button button--md', styles.contributionCta)}
+            to="https://github.com/abhisheksinghf/master-system-design"
+          >
+            Contribute on GitHub
+          </Link>
+        </section>
+
       </div>
     </header>
   );
 }
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
       title={siteConfig.title}

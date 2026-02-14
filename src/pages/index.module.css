@@ -166,3 +166,26 @@
     padding: 1.15rem;
   }
 }
+.contributionCard {
+  margin-top: 3rem;
+  padding: 2rem;
+  border-radius: 16px;
+  background: var(--ifm-color-emphasis-100);
+  text-align: center;
+}
+
+.contributionTitle {
+  margin-bottom: 1rem;
+}
+
+.contributionText {
+  max-width: 600px;
+  margin: 0 auto 1.5rem auto;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.contributionCta {
+  background: var(--ifm-color-primary);
+  color: white;
+}
