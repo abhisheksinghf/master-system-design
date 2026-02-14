@@ -291,15 +291,6 @@ Each case study will cover:
 - Scaling strategies
 - Failure scenarios
 
----
-
-## MODULE 11: ARCHITECTURAL PATTERNS ⭐⭐⭐⭐
-
-### 11.1 Monolith vs Microservices
-### 11.2 Modular Monolith
-### 11.3 CQRS
-### 11.4 Saga Pattern
-### 11.5 Event Sourcing (Deep Dive)
 
 ---
 
@@ -354,20 +345,31 @@ Each case study will cover:
 
 ---
 
-## MODULE 17: SYSTEM DESIGN INTERVIEW STRATEGY ⭐⭐⭐⭐⭐
+## MODULE 17: ARCHITECTURAL PATTERNS ⭐⭐⭐⭐⭐
 
-### 17.1 How to Approach a System Design Interview
+### 17.1 Monolith vs Microservices
+### 17.2 Modular Monolith
+### 17.3 CQRS
+### 17.4 Saga Pattern
+### 17.5 Event Sourcing (Deep Dive)
+
+
+---
+
+## MODULE 11: SYSTEM DESIGN INTERVIEW STRATEGY ⭐⭐⭐⭐
+
+### 11.1 How to Approach a System Design Interview
 - Clarifying requirements
 - Structured thinking
 - Step-by-step communication framework
 
-### 17.2 Common Mistakes
+### 11.2 Common Mistakes
 - Over-engineering
 - Missing bottlenecks
 - Ignoring failures
 - Weak trade-off discussion
 
-### 17.3 Mock Interviews
+### 11.3 Mock Interviews
 - End-to-end system design walkthroughs
 - Feedback-driven improvement loops
 
@@ -375,7 +377,6 @@ Each case study will cover:
 
 ## Final Clean Structure
 
-- Modules 0–10 → Foundations + Real-World Case Studies
-- Modules 11–16 → Architectural and Production Mastery
-- Module 17 → System Design Interview Strategy (final revision track)
+- Modules 0–11 → Strong Interview Level
+- Modules 12–17 → Staff / Principal / Production Mastery
 
