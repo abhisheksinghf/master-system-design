@@ -287,21 +287,6 @@ Each case study will cover:
 - Scaling strategies
 - Failure scenarios
 
----
-
-## MODULE 11: SYSTEM DESIGN INTERVIEW STRATEGY
-
-### 11.1 How to Approach a System Design Interview
-- Clarifying requirements
-- Structured thinking
-
-### 11.2 Common Mistakes
-- Over-engineering
-- Missing bottlenecks
-- Ignoring failures
-
-### 11.3 Mock Interviews
-- End-to-end system design walkthroughs
 
 ---
 
@@ -363,6 +348,26 @@ Each case study will cover:
 ### 17.3 CQRS
 ### 17.4 Saga Pattern
 ### 17.5 Event Sourcing (Deep Dive)
+
+
+---
+
+## MODULE 11: SYSTEM DESIGN INTERVIEW STRATEGY ⭐⭐⭐⭐
+
+### 11.1 How to Approach a System Design Interview
+- Clarifying requirements
+- Structured thinking
+- Step-by-step communication framework
+
+### 11.2 Common Mistakes
+- Over-engineering
+- Missing bottlenecks
+- Ignoring failures
+- Weak trade-off discussion
+
+### 11.3 Mock Interviews
+- End-to-end system design walkthroughs
+- Feedback-driven improvement loops
 
 ---
 
