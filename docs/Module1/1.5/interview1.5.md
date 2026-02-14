@@ -7,7 +7,7 @@ sidebar_label: Interview Questions
 
 ---
 
-## 1️⃣ What is a consistency model?
+## 1. What is a consistency model?
 
 ### Expected Answer
 A consistency model defines the rules about when and how updates to data become visible to different clients in a distributed system.
@@ -17,7 +17,7 @@ A consistency model defines the rules about when and how updates to data become 
 
 ---
 
-## 2️⃣ What is strong consistency?
+## 2. What is strong consistency?
 
 ### Expected Answer
 Strong consistency guarantees that after a write completes, all subsequent reads return the most recent value.
@@ -27,7 +27,7 @@ Strong consistency guarantees that after a write completes, all subsequent reads
 
 ---
 
-## 3️⃣ What is eventual consistency?
+## 3. What is eventual consistency?
 
 ### Expected Answer
 Eventual consistency guarantees that if no new writes occur, all replicas will eventually converge to the same value.
@@ -37,7 +37,7 @@ Eventual consistency guarantees that if no new writes occur, all replicas will e
 
 ---
 
-## 4️⃣ When would you choose strong consistency?
+## 4. When would you choose strong consistency?
 
 ### Expected Use Cases
 - Banking systems
@@ -49,7 +49,7 @@ Incorrect data is unacceptable.
 
 ---
 
-## 5️⃣ When is eventual consistency acceptable?
+## 5. When is eventual consistency acceptable?
 
 ### Expected Use Cases
 - Social media feeds
@@ -61,7 +61,7 @@ Temporary inconsistency does not break business logic.
 
 ---
 
-## 6️⃣ What is read-after-write consistency?
+## 6. What is read-after-write consistency?
 
 ### Expected Answer
 A client always sees its own writes immediately, even if other clients may not.
@@ -71,21 +71,21 @@ A client always sees its own writes immediately, even if other clients may not.
 
 ---
 
-## 7️⃣ What is monotonic read consistency?
+## 7. What is monotonic read consistency?
 
 ### Expected Answer
 Once a client has seen a value, it will never see an older value later.
 
 ---
 
-## 8️⃣ What is monotonic write consistency?
+## 8. What is monotonic write consistency?
 
 ### Expected Answer
 Writes from a single client are applied in the order they were issued.
 
 ---
 
-## 9️⃣ What is causal consistency?
+## 9. What is causal consistency?
 
 ### Expected Answer
 Operations that are causally related must be seen in the same order by all clients.
@@ -95,7 +95,7 @@ Operations that are causally related must be seen in the same order by all clien
 
 ---
 
-## 🔟 How do consistency models relate to CAP?
+## 10. How do consistency models relate to CAP?
 
 ### Expected Answer
 Consistency models are how CAP trade-offs are implemented:
@@ -104,7 +104,7 @@ Consistency models are how CAP trade-offs are implemented:
 
 ---
 
-## 1️⃣1️⃣ Why is strong consistency expensive?
+## 11. Why is strong consistency expensive?
 
 ### Expected Points
 - Requires coordination across replicas
@@ -113,7 +113,7 @@ Consistency models are how CAP trade-offs are implemented:
 
 ---
 
-## 1️⃣2️⃣ Can a system use multiple consistency models?
+## 12. Can a system use multiple consistency models?
 
 ### Correct Answer
 Yes.
@@ -126,14 +126,14 @@ Modern systems often use different consistency models for different operations.
 
 ---
 
-## 1️⃣3️⃣ What consistency model improves user experience without full strong consistency?
+## 13. What consistency model improves user experience without full strong consistency?
 
 ### Correct Answer
 Read-after-write consistency.
 
 ---
 
-## 1️⃣4️⃣ What are common misconceptions about eventual consistency?
+## 14. What are common misconceptions about eventual consistency?
 
 ### Expected Clarification
 - Data is not wrong forever
@@ -142,7 +142,7 @@ Read-after-write consistency.
 
 ---
 
-## 1️⃣5️⃣ Give an example of a hybrid consistency system.
+## 15. Give an example of a hybrid consistency system.
 
 ### Expected Answer
 - Social media app:

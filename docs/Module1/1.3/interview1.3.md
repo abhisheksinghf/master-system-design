@@ -7,7 +7,7 @@ sidebar_label: Interview Questions
 
 ---
 
-## 1️⃣ What is latency?
+## 1. What is latency?
 
 ### Expected Answer
 Latency is the time taken to process a single request from start to finish, usually measured in milliseconds.
@@ -17,7 +17,7 @@ Latency is the time taken to process a single request from start to finish, usua
 
 ---
 
-## 2️⃣ What is throughput?
+## 2. What is throughput?
 
 ### Expected Answer
 Throughput is the number of requests a system can handle per unit time, usually measured in requests per second (RPS).
@@ -27,7 +27,7 @@ Throughput is the number of requests a system can handle per unit time, usually 
 
 ---
 
-## 3️⃣ Difference between latency and throughput?
+## 3. Difference between latency and throughput?
 
 ### Expected Answer
 - **Latency** → time per request  
@@ -38,7 +38,7 @@ Throughput is the number of requests a system can handle per unit time, usually 
 
 ---
 
-## 4️⃣ Can a system have low latency but low throughput?
+## 4. Can a system have low latency but low throughput?
 
 ### Correct Answer
 Yes.
@@ -48,7 +48,7 @@ A system may process requests very fast but only a few at a time due to limited 
 
 ---
 
-## 5️⃣ Can a system have high throughput but high latency?
+## 5. Can a system have high throughput but high latency?
 
 ### Correct Answer
 Yes.
@@ -58,7 +58,7 @@ Batch or async systems process many requests together, increasing throughput but
 
 ---
 
-## 6️⃣ Which is more important: latency or throughput?
+## 6. Which is more important: latency or throughput?
 
 ### Correct Answer
 It depends on the system.
@@ -72,7 +72,7 @@ It depends on the system.
 
 ---
 
-## 7️⃣ What is tail latency?
+## 7. What is tail latency?
 
 ### Expected Answer
 Tail latency refers to latency experienced by the slowest requests, usually measured as p95 or p99 latency.
@@ -82,7 +82,7 @@ Tail latency refers to latency experienced by the slowest requests, usually meas
 
 ---
 
-## 8️⃣ Why is tail latency important?
+## 8. Why is tail latency important?
 
 ### Expected Points
 - Users notice slow requests
@@ -91,7 +91,7 @@ Tail latency refers to latency experienced by the slowest requests, usually meas
 
 ---
 
-## 9️⃣ How do synchronous calls affect latency?
+## 9. How do synchronous calls affect latency?
 
 ### Expected Answer
 Each synchronous call adds waiting time, increasing overall latency.
@@ -101,14 +101,14 @@ Each synchronous call adds waiting time, increasing overall latency.
 
 ---
 
-## 🔟 How does asynchronous processing affect throughput?
+## 10. How does asynchronous processing affect throughput?
 
 ### Expected Answer
 Async processing allows the system to handle more requests concurrently, increasing throughput.
 
 ---
 
-## 1️⃣1️⃣ How does caching affect latency and throughput?
+## 11. How does caching affect latency and throughput?
 
 ### Expected Answer
 - Reduces latency by avoiding expensive operations
@@ -119,7 +119,7 @@ Async processing allows the system to handle more requests concurrently, increas
 
 ---
 
-## 1️⃣2️⃣ How do message queues impact latency and throughput?
+## 12. How do message queues impact latency and throughput?
 
 ### Expected Answer
 - Increase throughput
@@ -130,7 +130,7 @@ Async processing allows the system to handle more requests concurrently, increas
 
 ---
 
-## 1️⃣3️⃣ Why do microservices increase latency?
+## 13. Why do microservices increase latency?
 
 ### Expected Answer
 Because each inter-service call adds network overhead and processing time.
@@ -140,7 +140,7 @@ Because each inter-service call adds network overhead and processing time.
 
 ---
 
-## 1️⃣4️⃣ How do you reduce latency in a system?
+## 14. How do you reduce latency in a system?
 
 ### Expected Points
 - Reduce network hops
@@ -150,7 +150,7 @@ Because each inter-service call adds network overhead and processing time.
 
 ---
 
-## 1️⃣5️⃣ How do you increase throughput in a system?
+## 15. How do you increase throughput in a system?
 
 ### Expected Points
 - Async processing

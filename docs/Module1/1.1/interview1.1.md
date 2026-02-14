@@ -3,7 +3,7 @@
 
 ---
 
-## 1️⃣ What is system design?
+## 1. What is system design?
 
 ### Expected Answer
 System design is the process of defining system components, data flow, and trade-offs to meet functional and non-functional requirements at scale.
@@ -13,7 +13,7 @@ System design is the process of defining system components, data flow, and trade
 
 ---
 
-## 2️⃣ Why is system design important?
+## 2. Why is system design important?
 
 ### Expected Points
 - Systems must scale
@@ -26,7 +26,7 @@ System design is the process of defining system components, data flow, and trade
 
 ---
 
-## 3️⃣ What are functional and non-functional requirements?
+## 3. What are functional and non-functional requirements?
 
 ### Functional
 - What the system does
@@ -41,7 +41,7 @@ Always mention **both**.
 
 ---
 
-## 4️⃣ Which requirements do you clarify first in an interview?
+## 4. Which requirements do you clarify first in an interview?
 
 ### Correct Answer
 Non-functional requirements.
@@ -57,7 +57,7 @@ They determine:
 
 ---
 
-## 5️⃣ What are common non-functional requirements?
+## 5. What are common non-functional requirements?
 
 ### Expected List (Name at least 5)
 - Scalability
@@ -71,7 +71,7 @@ They determine:
 
 ---
 
-## 6️⃣ Difference between High-Level Design (HLD) and Low-Level Design (LLD)?
+## 6. Difference between High-Level Design (HLD) and Low-Level Design (LLD)?
 
 ### HLD
 - Components
@@ -88,7 +88,7 @@ They determine:
 
 ---
 
-## 7️⃣ How do interviewers evaluate system design answers?
+## 7. How do interviewers evaluate system design answers?
 
 ### They Look For
 - Structured approach
@@ -103,7 +103,7 @@ They determine:
 
 ---
 
-## 8️⃣ What is your approach to a system design problem?
+## 8. What is your approach to a system design problem?
 
 ### Ideal Answer (Stepwise)
 1. Clarify requirements
@@ -119,7 +119,7 @@ Say this **before** starting design.
 
 ---
 
-## 9️⃣ Why is estimation important in system design interviews?
+## 9. Why is estimation important in system design interviews?
 
 ### Expected Answer
 Estimation helps understand load, choose the right architecture, and identify scaling challenges.
@@ -129,7 +129,7 @@ Estimation helps understand load, choose the right architecture, and identify sc
 
 ---
 
-## 🔟 What is a bottleneck in system design?
+## 10. What is a bottleneck in system design?
 
 ### Expected Answer
 A component that limits system performance or scalability.
@@ -141,7 +141,7 @@ A component that limits system performance or scalability.
 
 ---
 
-## 1️⃣1️⃣ What is a Single Point of Failure (SPOF)?
+## 11. What is a Single Point of Failure (SPOF)?
 
 ### Expected Answer
 A component whose failure brings down the entire system.
@@ -151,7 +151,7 @@ A component whose failure brings down the entire system.
 
 ---
 
-## 1️⃣2️⃣ What do we mean by trade-offs in system design?
+## 12. What do we mean by trade-offs in system design?
 
 ### Expected Answer
 Improving one aspect often degrades another.
@@ -166,7 +166,7 @@ Examples:
 
 ---
 
-## 1️⃣3️⃣ Should you start drawing architecture immediately in an interview?
+## 13. Should you start drawing architecture immediately in an interview?
 
 ### Correct Answer
 No.
@@ -180,7 +180,7 @@ No.
 
 ---
 
-## 1️⃣4️⃣ What mistakes do candidates commonly make?
+## 14. What mistakes do candidates commonly make?
 
 ### Common Mistakes
 - Skipping requirements

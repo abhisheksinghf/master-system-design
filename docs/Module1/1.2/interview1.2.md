@@ -3,7 +3,7 @@
 
 ---
 
-## 1️⃣ What is scalability?
+## 1. What is scalability?
 
 ### Expected Answer
 Scalability is the ability of a system to handle increased load (users, requests, data) without performance degradation or major redesign.
@@ -13,7 +13,7 @@ Scalability is the ability of a system to handle increased load (users, requests
 
 ---
 
-## 2️⃣ Difference between scalability and performance?
+## 2. Difference between scalability and performance?
 
 ### Performance
 - How fast the system responds
@@ -26,7 +26,7 @@ Scalability is the ability of a system to handle increased load (users, requests
 
 ---
 
-## 3️⃣ Vertical scaling vs horizontal scaling?
+## 3. Vertical scaling vs horizontal scaling?
 
 ### Vertical Scaling
 - Add more CPU/RAM to one machine
@@ -41,7 +41,7 @@ Scalability is the ability of a system to handle increased load (users, requests
 
 ---
 
-## 4️⃣ Why is horizontal scaling preferred?
+## 4. Why is horizontal scaling preferred?
 
 ### Expected Points
 - No single hardware limit
@@ -53,7 +53,7 @@ Scalability is the ability of a system to handle increased load (users, requests
 
 ---
 
-## 5️⃣ What is load in system design?
+## 5. What is load in system design?
 
 ### Expected Answer
 Load refers to the demand on a system, usually measured in:
@@ -63,7 +63,7 @@ Load refers to the demand on a system, usually measured in:
 
 ---
 
-## 6️⃣ How do you estimate system load?
+## 6. How do you estimate system load?
 
 ### Expected Steps
 1. Number of users
@@ -79,7 +79,7 @@ Load refers to the demand on a system, usually measured in:
 
 ---
 
-## 7️⃣ What is a bottleneck?
+## 7. What is a bottleneck?
 
 ### Expected Answer
 A bottleneck is the component that limits system performance or scalability under load.
@@ -92,7 +92,7 @@ A bottleneck is the component that limits system performance or scalability unde
 
 ---
 
-## 8️⃣ What is a Single Point of Failure (SPOF)?
+## 8. What is a Single Point of Failure (SPOF)?
 
 ### Expected Answer
 A SPOF is a component whose failure brings down the entire system.
@@ -102,7 +102,7 @@ A SPOF is a component whose failure brings down the entire system.
 
 ---
 
-## 9️⃣ Why are databases usually the first bottleneck?
+## 9. Why are databases usually the first bottleneck?
 
 ### Expected Points
 - Centralized state
@@ -114,7 +114,7 @@ A SPOF is a component whose failure brings down the entire system.
 
 ---
 
-## 🔟 How do you scale stateless services?
+## 10. How do you scale stateless services?
 
 ### Expected Answer
 By adding more instances behind a load balancer.
@@ -125,7 +125,7 @@ By adding more instances behind a load balancer.
 
 ---
 
-## 1️⃣1️⃣ How do you scale stateful components like databases?
+## 11. How do you scale stateful components like databases?
 
 ### Expected Strategies
 - Read replicas
@@ -135,7 +135,7 @@ By adding more instances behind a load balancer.
 
 ---
 
-## 1️⃣2️⃣ What is read-heavy vs write-heavy traffic?
+## 12. What is read-heavy vs write-heavy traffic?
 
 ### Read-Heavy
 - More reads than writes
@@ -147,7 +147,7 @@ By adding more instances behind a load balancer.
 
 ---
 
-## 1️⃣3️⃣ Can you scale infinitely by adding servers?
+## 13. Can you scale infinitely by adding servers?
 
 ### Correct Answer
 No.
@@ -162,7 +162,7 @@ No.
 
 ---
 
-## 1️⃣4️⃣ What happens if you over-scale?
+## 14. What happens if you over-scale?
 
 ### Expected Answer
 - Higher cost
@@ -171,7 +171,7 @@ No.
 
 ---
 
-## 1️⃣5️⃣ What happens if you under-scale?
+## 15. What happens if you under-scale?
 
 ### Expected Answer
 - System crashes

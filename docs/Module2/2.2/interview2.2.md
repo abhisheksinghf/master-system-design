@@ -7,7 +7,7 @@ sidebar_label: Interview Questions
 
 ---
 
-## 1️⃣ What is a reverse proxy?
+## 1. What is a reverse proxy?
 
 ### Expected Answer
 A reverse proxy sits in front of backend servers, receives client requests, forwards them to appropriate backend services, and returns responses to clients.
@@ -17,7 +17,7 @@ A reverse proxy sits in front of backend servers, receives client requests, forw
 
 ---
 
-## 2️⃣ Reverse proxy vs forward proxy?
+## 2. Reverse proxy vs forward proxy?
 
 ### Reverse Proxy
 - Protects servers
@@ -32,7 +32,7 @@ Mention **who it protects** — clients vs servers.
 
 ---
 
-## 3️⃣ Why do we use a reverse proxy?
+## 3. Why do we use a reverse proxy?
 
 ### Expected Points
 - Security (hide backend servers)
@@ -42,7 +42,7 @@ Mention **who it protects** — clients vs servers.
 
 ---
 
-## 4️⃣ Is a reverse proxy the same as a load balancer?
+## 4. Is a reverse proxy the same as a load balancer?
 
 ### Correct Answer
 No.
@@ -56,14 +56,14 @@ No.
 
 ---
 
-## 5️⃣ What is an API Gateway?
+## 5. What is an API Gateway?
 
 ### Expected Answer
 An API Gateway is a specialized reverse proxy designed for APIs and microservices that acts as a single entry point and enforces policies.
 
 ---
 
-## 6️⃣ Why do microservices need an API Gateway?
+## 6. Why do microservices need an API Gateway?
 
 ### Expected Points
 - Centralized authentication
@@ -76,7 +76,7 @@ An API Gateway is a specialized reverse proxy designed for APIs and microservice
 
 ---
 
-## 7️⃣ API Gateway vs Reverse Proxy?
+## 7. API Gateway vs Reverse Proxy?
 
 ### Expected Comparison
 - Reverse proxy → general HTTP traffic
@@ -87,7 +87,7 @@ An API Gateway is a specialized reverse proxy designed for APIs and microservice
 
 ---
 
-## 8️⃣ API Gateway vs Load Balancer?
+## 8. API Gateway vs Load Balancer?
 
 ### Expected Comparison
 - Load balancer → distributes traffic
@@ -98,7 +98,7 @@ An API Gateway is a specialized reverse proxy designed for APIs and microservice
 
 ---
 
-## 9️⃣ What responsibilities does an API Gateway handle?
+## 9. What responsibilities does an API Gateway handle?
 
 ### Expected List
 - Authentication & authorization
@@ -109,7 +109,7 @@ An API Gateway is a specialized reverse proxy designed for APIs and microservice
 
 ---
 
-## 🔟 Can an API Gateway become a bottleneck?
+## 10. Can an API Gateway become a bottleneck?
 
 ### Correct Answer
 Yes.
@@ -123,21 +123,21 @@ Yes.
 
 ---
 
-## 1️⃣1️⃣ What is SSL termination and where does it happen?
+## 11. What is SSL termination and where does it happen?
 
 ### Expected Answer
 SSL termination is decrypting HTTPS traffic, often done at the reverse proxy or API Gateway to reduce backend overhead.
 
 ---
 
-## 1️⃣2️⃣ What is request aggregation in an API Gateway?
+## 12. What is request aggregation in an API Gateway?
 
 ### Expected Answer
 The gateway combines responses from multiple services into a single response for the client.
 
 ---
 
-## 1️⃣3️⃣ When should you NOT use an API Gateway?
+## 13. When should you NOT use an API Gateway?
 
 ### Expected Answer
 - Simple monolith
@@ -146,7 +146,7 @@ The gateway combines responses from multiple services into a single response for
 
 ---
 
-## 1️⃣4️⃣ What are common mistakes candidates make with API Gateways?
+## 14. What are common mistakes candidates make with API Gateways?
 
 ### Expected Points
 - Treating it as a load balancer
@@ -155,7 +155,7 @@ The gateway combines responses from multiple services into a single response for
 
 ---
 
-## 1️⃣5️⃣ How does an API Gateway improve security?
+## 15. How does an API Gateway improve security?
 
 ### Expected Answer
 - Centralized auth
