@@ -117,11 +117,11 @@ description: Master System Design Concepts
 
 ## MODULE 11: ARCHITECTURAL PATTERNS ⭐⭐⭐⭐⭐
 
-- [11.1 Monolith vs Microservices](/docs/17%20Module/ArchitecturalPatterns/17.1)
-- [11.2 Modular Monolith](/docs/17%20Module/ArchitecturalPatterns/17.2)
-- [11.3 CQRS](/docs/17%20Module/ArchitecturalPatterns/17.3)
-- [11.4 Saga Pattern](/docs/17%20Module/ArchitecturalPatterns/17.4)
-- [11.5 Event Sourcing](/docs/17%20Module/ArchitecturalPatterns/17.5)
+- [11.1 Monolith vs Microservices](/docs/11%20Module/ArchitecturalPatterns/11.1)
+- [11.2 Modular Monolith](/docs/11%20Module/ArchitecturalPatterns/11.2)
+- [11.3 CQRS](/docs/11%20Module/ArchitecturalPatterns/11.3)
+- [11.4 Saga Pattern](/docs/11%20Module/ArchitecturalPatterns/11.4)
+- [11.5 Event Sourcing](/docs/11%20Module/ArchitecturalPatterns/11.5)
 
 ---
 
@@ -178,6 +178,6 @@ description: Master System Design Concepts
 
 ## MODULE 17 SYSTEM DESIGN INTERVIEW STRATEGY ⭐⭐⭐⭐
 
-- [17.1 Interview Approach](/docs/11%20Module/SystemDesignInterviewStrategy/11.1)
-- [17.2 Common Mistakes](/docs/11%20Module/SystemDesignInterviewStrategy/11.2)
-- [17.3 Mock Interviews](/docs/11%20Module/SystemDesignInterviewStrategy/11.3)
+- [17.1 Interview Approach](/docs/17%20Module/SystemDesignInterviewStrategy/17.1)
+- [17.2 Common Mistakes](/docs/17%20Module/SystemDesignInterviewStrategy/17.2)
+- [17.3 Mock Interviews](/docs/17%20Module/SystemDesignInterviewStrategy/17.3)

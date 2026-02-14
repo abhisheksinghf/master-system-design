@@ -1,41 +1,125 @@
-# Website
+# Master System Design
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+A structured, open-source, end-to-end roadmap to learning System Design — from fundamentals to advanced distributed systems.
 
-## Installation
+This repository documents a complete learning journey covering core concepts, real-world architecture patterns, and practical system design thinking used in production systems.
 
-```bash
-yarn
-```
+---
 
-## Local Development
+## 🚀 What This Project Is
 
-```bash
-yarn start
-```
+This is a carefully structured System Design guide that covers:
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+- Networking & backend fundamentals  
+- Scalability & performance concepts  
+- Databases, replication & sharding  
+- Caching strategies  
+- Messaging & event-driven systems  
+- Reliability & fault tolerance  
+- Distributed systems fundamentals  
+- Security principles  
+- Observability (logs, metrics, tracing)  
+- Real-world case studies (URL shortener, payment systems, etc.)  
+- System design interview preparation  
 
-## Build
+The goal is clarity over complexity.
 
-```bash
-yarn build
-```
+No buzzwords. No fluff. Just structured thinking.
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+---
 
-## Deployment
+## 🧠 Who This Is For
 
-Using SSH:
+- Backend engineers  
+- Full-stack developers  
+- Engineers preparing for product companies  
+- Developers transitioning to senior roles  
+- Anyone who wants to truly understand scalable systems  
 
-```bash
-USE_SSH=true yarn deploy
-```
+---
 
-Not using SSH:
+## 🎯 What You’ll Gain
 
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
+By going through this roadmap, you will:
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+- Think in terms of trade-offs  
+- Understand scalability patterns  
+- Design systems for failures  
+- Speak confidently in system design interviews  
+- Build production-ready mental models  
+
+This is not about memorizing architectures.  
+It’s about learning how to think.
+
+---
+
+## 🏗 Structure
+
+The content is organized progressively:
+
+1. Foundations  
+2. Core system design principles  
+3. Databases & storage systems  
+4. Caching & performance optimization  
+5. Asynchronous systems  
+6. Reliability & fault tolerance  
+7. Distributed systems  
+8. Security  
+9. Observability  
+10. Real-world case studies  
+11. Interview strategy  
+
+Each section builds on the previous one.
+
+---
+
+## 🤝 Contributions
+
+This project is open to improvements.
+
+If you would like to:
+
+- Improve explanations  
+- Fix errors  
+- Add diagrams  
+- Contribute new case studies  
+- Refine interview questions  
+
+Feel free to open a pull request.
+
+Let’s build a high-quality system design resource together.
+
+---
+
+## 📌 Philosophy
+
+System Design is about:
+
+- Constraints  
+- Trade-offs  
+- Scalability  
+- Reliability  
+- Clear communication  
+
+Great engineers don’t look for perfect solutions.  
+They design the right solution for the context.
+
+---
+
+## ⭐ If You Find This Helpful
+
+If this roadmap helps you:
+
+- Consider starring the repo  
+- Share it with other engineers  
+- Contribute improvements  
+
+---
+
+🌐 **Live Site:** https://master-system-design.netlify.app
+
+--- 
+
+Built with Docusaurus.  
+Structured with clarity.  
+Focused on mastery.
