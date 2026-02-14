@@ -50,7 +50,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/abhisheksinghf/master-system-design',
         },
         blog: {
           showReadingTime: true,
@@ -61,7 +61,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/abhisheksinghf/master-system-design',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -100,6 +100,11 @@ const config = {
             to: '/docs/intro',
             label: 'Get Started',
             position: 'left',
+          },
+          {
+            href: 'https://github.com/abhisheksinghf/master-system-design',
+            label: 'GitHub',
+            position: 'right',
           },
         ],
       },
@@ -145,7 +150,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/abhisheksinghf/master-system-design',
               },
             ],
           },
@@ -157,7 +162,7 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
-     markdown: {
+  markdown: {
     mermaid: true,
   },
   themes: ['@docusaurus/theme-mermaid'],

@@ -375,6 +375,7 @@ Each case study will cover:
 
 ## Final Clean Structure
 
-- Modules 0–11 → Strong Interview Level
-- Modules 12–17 → Staff / Principal / Production Mastery
+- Modules 0–10 → Foundations + Real-World Case Studies
+- Modules 11–16 → Architectural and Production Mastery
+- Module 17 → System Design Interview Strategy (final revision track)
 
