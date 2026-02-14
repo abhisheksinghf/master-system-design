@@ -115,7 +115,7 @@ const config = {
               },
               {
                 label: 'Contents',
-                to: '/docs',
+                to: '/docs/content',
               },
             ],
           },
